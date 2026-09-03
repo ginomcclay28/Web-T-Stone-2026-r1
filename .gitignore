@@ -1,0 +1,16 @@
+# ไฟล์ต้นฉบับ PowerPoint — ใหญ่มาก (รวม 1.7 GB) และ GitHub ไม่รับไฟล์เกิน 100 MB
+# เก็บไว้ในเครื่องพอ ไม่ต้องขึ้น repo
+*.pptx
+*.potx
+*.ppt
+~$*
+
+# ไฟล์ระบบ
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ของชั่วคราว
+_backup/
+node_modules/
+*.log

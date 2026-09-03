@@ -1,5 +1,18 @@
 window.TSTONE_PROJECTS = [
   {
+    id: 'thailand-mobile-expo',
+    title: 'Thailand Mobile Expo',
+    subtitle: 'AIS Integrated Event System',
+    year: '2013-2026',
+    date: 'จัดต่อเนื่องหลายครั้ง ปี 2556 – ปัจจุบัน',
+    location: 'Thailand Mobile Expo',
+    image: 'assets/images/projects/thailand-mobile-expo/cover.webp',
+    gallery: ['assets/images/projects/thailand-mobile-expo/01.webp', 'assets/images/projects/thailand-mobile-expo/02.webp', 'assets/images/projects/thailand-mobile-expo/03.webp', 'assets/images/projects/thailand-mobile-expo/04.webp', 'assets/images/projects/thailand-mobile-expo/05.webp', 'assets/images/projects/thailand-mobile-expo/06.webp', 'assets/images/projects/thailand-mobile-expo/07.webp', 'assets/images/projects/thailand-mobile-expo/08.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'รวมหลายระบบไว้ในงานเดียว ตั้งแต่เรียกคิว ระบบกันขโมยพร้อมแท่นวางมือถือ ไปจนถึงระบบโชว์เบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'ระบบโชว์เบอร์สวย AIS']
+  },
+  {
     id: 'the-odyssey',
     title: 'The Odyssey',
     subtitle: 'Stage & Interactive Experience',
@@ -12,6 +25,19 @@ window.TSTONE_PROJECTS = [
     summary: 'งานเวทีและสื่ออินเทอร์แอ็กทีฟสำหรับการแสดง',
     features: ['Stage Media', 'Interactive Display', 'System Integration'],
     featured: true
+  },
+  {
+    id: 'transparent-touch',
+    title: 'PTT OR Transparent Touch Screen',
+    subtitle: 'Transparent Display',
+    year: '2025',
+    date: '2568',
+    location: 'PTT OR',
+    image: 'assets/images/projects/transparent-touch/cover.webp',
+    gallery: ['assets/images/projects/transparent-touch/01.webp', 'assets/images/projects/transparent-touch/02.webp', 'assets/images/projects/transparent-touch/03.webp'],
+    categories: ['Interactive', 'System Integration'],
+    summary: 'จอสัมผัสแบบโปร่งใสสำหรับพื้นที่จัดแสดงของ PTT OR มองทะลุเห็นของจริงด้านหลังพร้อมข้อมูลซ้อนบนจอ',
+    features: ['Transparent Display', 'Touchscreen', 'Exhibition Media']
   },
   {
     id: 'rd-museum',
@@ -55,32 +81,6 @@ window.TSTONE_PROJECTS = [
     featured: true
   },
   {
-    id: 'kingpower-photobooth',
-    title: 'King Power Photo Booth',
-    subtitle: 'Photo Booth System',
-    year: '2023',
-    date: '2566',
-    location: 'King Power',
-    image: 'assets/images/projects/kingpower-photobooth/cover.webp',
-    gallery: ['assets/images/projects/kingpower-photobooth/01.webp', 'assets/images/projects/kingpower-photobooth/02.webp', 'assets/images/projects/kingpower-photobooth/03.webp', 'assets/images/projects/kingpower-photobooth/04.webp', 'assets/images/projects/kingpower-photobooth/05.webp', 'assets/images/projects/kingpower-photobooth/06.webp', 'assets/images/projects/kingpower-photobooth/07.webp', 'assets/images/projects/kingpower-photobooth/08.webp'],
-    categories: ['Event', 'Interactive'],
-    summary: 'ระบบถ่ายภาพภายในงาน พร้อมส่งภาพให้ผู้ร่วมงานแบบทันที',
-    features: ['Photo Booth', 'Instant Delivery']
-  },
-  {
-    id: 'mitsubishi-museum',
-    title: 'Mitsubishi Museum',
-    subtitle: 'Brand Museum Interactive',
-    year: '2023',
-    date: '2566',
-    location: 'Mitsubishi',
-    image: 'assets/images/projects/mitsubishi-museum/cover.webp',
-    gallery: ['assets/images/projects/mitsubishi-museum/01.webp', 'assets/images/projects/mitsubishi-museum/02.webp', 'assets/images/projects/mitsubishi-museum/03.webp', 'assets/images/projects/mitsubishi-museum/04.webp', 'assets/images/projects/mitsubishi-museum/05.webp', 'assets/images/projects/mitsubishi-museum/06.webp', 'assets/images/projects/mitsubishi-museum/07.webp', 'assets/images/projects/mitsubishi-museum/08.webp'],
-    categories: ['Museum', 'Interactive'],
-    summary: 'สื่อจัดแสดงภายในพื้นที่พิพิธภัณฑ์แบรนด์ ผสมจอแสดงผลกับสื่ออินเทอร์แอ็กทีฟ',
-    features: ['Interactive Display', 'Exhibition Media']
-  },
-  {
     id: 'ndc-photobooth',
     title: 'Photo Booth วิทยาลัยป้องกันราชอาณาจักร',
     subtitle: 'Photo Booth System',
@@ -95,30 +95,17 @@ window.TSTONE_PROJECTS = [
     featured: true
   },
   {
-    id: 'rfid-led-screen',
-    title: 'RFID + Big LED Screen',
-    subtitle: 'RFID + LED Wall',
+    id: 'thaibev-product-demo',
+    title: 'ThaiBev Product Demonstration',
+    subtitle: 'Product Demonstration',
     year: '2023',
     date: '2566',
-    location: 'Event',
-    image: 'assets/images/projects/rfid-led-screen/cover.webp',
-    gallery: ['assets/images/projects/rfid-led-screen/01.webp', 'assets/images/projects/rfid-led-screen/02.webp'],
-    categories: ['Event', 'System Integration'],
-    summary: 'ระบบ RFID ที่เชื่อมกับจอ LED ขนาดใหญ่ภายในงาน',
-    features: ['RFID System', 'LED Display', 'System Integration']
-  },
-  {
-    id: 'vichai-mapping',
-    title: 'Vichai Trading Projection Mapping',
-    subtitle: 'Projection Mapping',
-    year: '2023',
-    date: '2566',
-    location: 'Vichai Trading',
-    image: 'assets/images/projects/vichai-mapping/cover.webp',
-    gallery: ['assets/images/projects/vichai-mapping/01.webp'],
-    categories: ['Event', 'Interactive'],
-    summary: 'งาน Projection Mapping ภายในงานของบริษัท',
-    features: ['Projection Mapping']
+    location: 'ThaiBev',
+    image: 'assets/images/projects/thaibev-product-demo/cover.webp',
+    gallery: ['assets/images/projects/thaibev-product-demo/01.webp', 'assets/images/projects/thaibev-product-demo/02.webp'],
+    categories: ['Event', 'Interactive', 'System Integration'],
+    summary: 'ระบบสาธิตสินค้าที่เชื่อม RFID เข้ากับจอ LED ขนาดใหญ่ หยิบสินค้าขึ้นมาแล้วจอเล่นเนื้อหาของสินค้านั้นทันที',
+    features: ['RFID System', 'Big LED Display', 'System Integration']
   },
   {
     id: 'ensure-gold',
@@ -172,19 +159,6 @@ window.TSTONE_PROJECTS = [
     categories: ['Event', 'System Integration'],
     summary: 'ระบบสนับสนุนงานอีเวนต์ขนาดใหญ่ภายในสนาม',
     features: ['Event System', 'System Integration']
-  },
-  {
-    id: 'transparent-touch',
-    title: 'Transparent Touch Screen',
-    subtitle: 'Transparent Display',
-    year: '2022',
-    date: '2565',
-    location: 'Transparent Touch Screen',
-    image: 'assets/images/projects/transparent-touch/cover.webp',
-    gallery: ['assets/images/projects/transparent-touch/01.webp', 'assets/images/projects/transparent-touch/02.webp', 'assets/images/projects/transparent-touch/03.webp', 'assets/images/projects/transparent-touch/04.webp', 'assets/images/projects/transparent-touch/05.webp', 'assets/images/projects/transparent-touch/06.webp', 'assets/images/projects/transparent-touch/07.webp', 'assets/images/projects/transparent-touch/08.webp'],
-    categories: ['Interactive', 'System Integration'],
-    summary: 'จอสัมผัสแบบโปร่งใสสำหรับงานจัดแสดงสินค้าและนิทรรศการ',
-    features: ['Transparent Display', 'Touchscreen']
   },
   {
     id: 'abbott',
@@ -288,7 +262,7 @@ window.TSTONE_PROJECTS = [
     date: '2562',
     location: 'Lazada @ Lotus’s Expo',
     image: 'assets/images/projects/lazada-lotus-expo/cover.webp',
-    gallery: ['assets/images/projects/lazada-lotus-expo/01.webp', 'assets/images/projects/lazada-lotus-expo/02.webp', 'assets/images/projects/lazada-lotus-expo/03.webp', 'assets/images/projects/lazada-lotus-expo/04.webp', 'assets/images/projects/lazada-lotus-expo/05.webp', 'assets/images/projects/lazada-lotus-expo/06.webp', 'assets/images/projects/lazada-lotus-expo/07.webp', 'assets/images/projects/lazada-lotus-expo/08.webp'],
+    gallery: ['assets/images/projects/lazada-lotus-expo/01.webp', 'assets/images/projects/lazada-lotus-expo/02.webp', 'assets/images/projects/lazada-lotus-expo/03.webp', 'assets/images/projects/lazada-lotus-expo/04.webp', 'assets/images/projects/lazada-lotus-expo/05.webp'],
     categories: ['Event', 'Registration'],
     summary: 'ระบบลงทะเบียนและคีออสก์ภายในบูธงานเอ็กซ์โป',
     features: ['Registration Kiosk', 'Event System']
@@ -321,16 +295,16 @@ window.TSTONE_PROJECTS = [
   },
   {
     id: 'nasatta',
-    title: 'Nasatta Silk',
-    subtitle: 'Silk Exhibition Interactive',
+    title: 'Nasatta',
+    subtitle: 'Nasatta Thai Heritage Park',
     year: '2019',
     date: '2562',
-    location: 'Nasatta Silk',
+    location: 'ณ สัทธา อุทยานไทย ราชบุรี',
     image: 'assets/images/projects/nasatta/cover.webp',
     gallery: ['assets/images/projects/nasatta/01.webp', 'assets/images/projects/nasatta/02.webp', 'assets/images/projects/nasatta/03.webp', 'assets/images/projects/nasatta/04.webp', 'assets/images/projects/nasatta/05.webp', 'assets/images/projects/nasatta/06.webp', 'assets/images/projects/nasatta/07.webp', 'assets/images/projects/nasatta/08.webp'],
     categories: ['Museum', 'Interactive'],
-    summary: 'สื่อจัดแสดงและระบบภาพภายในพื้นที่นิทรรศการผ้าไหม',
-    features: ['Interactive Display', 'Exhibition Media']
+    summary: 'สื่อจัดแสดงและงานฉายภาพภายในอาคารนิทรรศการ ณ สัทธา อุทยานไทย พร้อมแอป NaSatta สำหรับผู้เข้าชม',
+    features: ['Projection Mapping', 'Interactive Display', 'Mobile AR App']
   },
   {
     id: 'nescafe',
@@ -366,7 +340,7 @@ window.TSTONE_PROJECTS = [
     date: '30 พฤษภาคม – 2 มิถุนายน 2562',
     location: 'Pet Expo Thailand',
     image: 'assets/images/projects/pet-expo/cover.webp',
-    gallery: ['assets/images/projects/pet-expo/01.webp', 'assets/images/projects/pet-expo/02.webp', 'assets/images/projects/pet-expo/03.webp', 'assets/images/projects/pet-expo/04.webp', 'assets/images/projects/pet-expo/05.webp', 'assets/images/projects/pet-expo/06.webp', 'assets/images/projects/pet-expo/07.webp', 'assets/images/projects/pet-expo/08.webp'],
+    gallery: ['assets/images/projects/pet-expo/01.webp', 'assets/images/projects/pet-expo/02.webp', 'assets/images/projects/pet-expo/03.webp'],
     categories: ['Event', 'Game'],
     summary: 'เกมหน้าจอสัมผัสสำหรับกิจกรรมภายในบูธ ช่วยให้ผู้ร่วมงานเล่นสนุกและมีส่วนร่วมกับแบรนด์',
     features: ['Touchscreen Game']
@@ -379,23 +353,10 @@ window.TSTONE_PROJECTS = [
     date: 'งานวันเด็ก 2562',
     location: 'SCB',
     image: 'assets/images/projects/scb-kids-day/cover.webp',
-    gallery: ['assets/images/projects/scb-kids-day/01.webp', 'assets/images/projects/scb-kids-day/02.webp', 'assets/images/projects/scb-kids-day/03.webp', 'assets/images/projects/scb-kids-day/04.webp', 'assets/images/projects/scb-kids-day/05.webp', 'assets/images/projects/scb-kids-day/06.webp', 'assets/images/projects/scb-kids-day/07.webp', 'assets/images/projects/scb-kids-day/08.webp'],
+    gallery: ['assets/images/projects/scb-kids-day/01.webp', 'assets/images/projects/scb-kids-day/02.webp', 'assets/images/projects/scb-kids-day/03.webp', 'assets/images/projects/scb-kids-day/04.webp'],
     categories: ['Event', 'Interactive', 'Game'],
     summary: 'กิจกรรมหน้าจอสัมผัสสำหรับเด็ก ออกแบบให้เล่นง่าย สนุก และรองรับการใช้งานจริงในพื้นที่งาน',
     features: ['Touchscreen Activity', 'Interactive Content']
-  },
-  {
-    id: 'thailand-mobile-expo',
-    title: 'Thailand Mobile Expo',
-    subtitle: 'AIS Integrated Event System',
-    year: '2017-2019',
-    date: 'จัดต่อเนื่องหลายครั้ง ปี 2560–2562',
-    location: 'Thailand Mobile Expo',
-    image: 'assets/images/projects/thailand-mobile-expo/cover.webp',
-    gallery: ['assets/images/projects/thailand-mobile-expo/01.webp', 'assets/images/projects/thailand-mobile-expo/02.webp', 'assets/images/projects/thailand-mobile-expo/03.webp', 'assets/images/projects/thailand-mobile-expo/04.webp', 'assets/images/projects/thailand-mobile-expo/05.webp', 'assets/images/projects/thailand-mobile-expo/06.webp', 'assets/images/projects/thailand-mobile-expo/07.webp', 'assets/images/projects/thailand-mobile-expo/08.webp'],
-    categories: ['Event', 'System Integration'],
-    summary: 'รวมหลายระบบไว้ในงานเดียว ตั้งแต่เรียกคิว ระบบกันขโมยพร้อมแท่นวางมือถือ ไปจนถึงระบบโชว์เบอร์สวย',
-    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'ระบบโชว์เบอร์สวย AIS']
   },
   {
     id: 'book-fair',
@@ -405,7 +366,7 @@ window.TSTONE_PROJECTS = [
     date: '28 มีนาคม – 7 เมษายน 2562',
     location: 'งานสัปดาห์หนังสือแห่งชาติ',
     image: 'assets/images/projects/book-fair/cover.webp',
-    gallery: ['assets/images/projects/book-fair/01.webp', 'assets/images/projects/book-fair/02.webp', 'assets/images/projects/book-fair/03.webp', 'assets/images/projects/book-fair/04.webp', 'assets/images/projects/book-fair/05.webp', 'assets/images/projects/book-fair/06.webp', 'assets/images/projects/book-fair/07.webp', 'assets/images/projects/book-fair/08.webp'],
+    gallery: ['assets/images/projects/book-fair/01.webp', 'assets/images/projects/book-fair/02.webp'],
     categories: ['Event', 'Interactive', 'Game'],
     summary: 'Kiosk สำหรับพิมพ์ข้อความและกระจายขึ้นหลายหน้าจอ พร้อมงาน Mapping บนกระดาษสา',
     features: ['Interactive Kiosk', 'Multi-screen Message Display', 'Projection Mapping']
@@ -418,23 +379,10 @@ window.TSTONE_PROJECTS = [
     date: '2562',
     location: 'งานสืบสานสมานมิตร',
     image: 'assets/images/projects/suebsan/cover.webp',
-    gallery: ['assets/images/projects/suebsan/01.webp', 'assets/images/projects/suebsan/02.webp', 'assets/images/projects/suebsan/03.webp', 'assets/images/projects/suebsan/04.webp', 'assets/images/projects/suebsan/05.webp', 'assets/images/projects/suebsan/06.webp', 'assets/images/projects/suebsan/07.webp'],
+    gallery: ['assets/images/projects/suebsan/01.webp', 'assets/images/projects/suebsan/02.webp', 'assets/images/projects/suebsan/03.webp', 'assets/images/projects/suebsan/04.webp', 'assets/images/projects/suebsan/05.webp', 'assets/images/projects/suebsan/06.webp'],
     categories: ['Event', 'Interactive'],
     summary: 'สื่อจัดแสดงและอินเทอร์แอ็กทีฟภายในงานนิทรรศการ',
     features: ['Interactive Display', 'Exhibition Media']
-  },
-  {
-    id: 'other-works',
-    title: 'งานอื่น ๆ',
-    subtitle: 'Archive',
-    year: '2016-2019',
-    date: '2559–2562',
-    location: 'งานอื่น ๆ',
-    image: 'assets/images/projects/other-works/cover.webp',
-    gallery: ['assets/images/projects/other-works/01.webp', 'assets/images/projects/other-works/02.webp', 'assets/images/projects/other-works/03.webp', 'assets/images/projects/other-works/04.webp'],
-    categories: ['Event', 'Interactive'],
-    summary: 'ภาพงานอื่น ๆ ที่เก็บไว้จากหลายอีเวนต์',
-    features: ['Event System']
   },
   {
     id: 'aun-ai-rak',
@@ -444,7 +392,7 @@ window.TSTONE_PROJECTS = [
     date: '10 ธันวาคม 2561 – 19 มกราคม 2562',
     location: 'งานอุ่นไอรักคลายความหนาว',
     image: 'assets/images/projects/aun-ai-rak/cover.webp',
-    gallery: ['assets/images/projects/aun-ai-rak/01.webp', 'assets/images/projects/aun-ai-rak/02.webp', 'assets/images/projects/aun-ai-rak/03.webp', 'assets/images/projects/aun-ai-rak/04.webp', 'assets/images/projects/aun-ai-rak/05.webp', 'assets/images/projects/aun-ai-rak/06.webp', 'assets/images/projects/aun-ai-rak/07.webp', 'assets/images/projects/aun-ai-rak/08.webp'],
+    gallery: ['assets/images/projects/aun-ai-rak/01.webp', 'assets/images/projects/aun-ai-rak/02.webp', 'assets/images/projects/aun-ai-rak/03.webp', 'assets/images/projects/aun-ai-rak/04.webp'],
     categories: ['Event', 'Game'],
     summary: 'เกมหน้าจอสัมผัสที่ผสานเนื้อหาให้ความรู้กับรูปแบบการเล่นที่เข้าถึงง่ายสำหรับผู้ชมทุกวัย',
     features: ['Touchscreen Games']
@@ -475,19 +423,6 @@ window.TSTONE_PROJECTS = [
     categories: ['Museum', 'Interactive'],
     summary: 'สื่อจัดแสดงและอินเทอร์แอ็กทีฟภายในศูนย์การเรียนรู้ กฟผ. ลำตะคอง',
     features: ['Interactive Display', 'Projection Mapping', 'Exhibition Media']
-  },
-  {
-    id: 'poh-teck-tung',
-    title: 'หอประวัติ มูลนิธิป่อเต็กตึ๊ง',
-    subtitle: 'Foundation Historical Hall',
-    year: '2019',
-    date: '2562',
-    location: 'หอประวัติ มูลนิธิป่อเต็กตึ๊ง',
-    image: 'assets/images/projects/poh-teck-tung/cover.webp',
-    gallery: ['assets/images/projects/poh-teck-tung/01.webp', 'assets/images/projects/poh-teck-tung/02.webp', 'assets/images/projects/poh-teck-tung/03.webp'],
-    categories: ['Museum', 'Interactive'],
-    summary: 'สื่ออินเทอร์แอ็กทีฟภายในหอประวัติ สำหรับเล่าเรื่องความเป็นมาขององค์กร',
-    features: ['Interactive Kiosk', 'Exhibition Media']
   },
   {
     id: 'museum-kmutnb',
@@ -538,7 +473,7 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'AP Staff Party',
     image: 'assets/images/projects/ap-staff-party/cover.webp',
-    gallery: ['assets/images/projects/ap-staff-party/01.webp', 'assets/images/projects/ap-staff-party/02.webp', 'assets/images/projects/ap-staff-party/03.webp', 'assets/images/projects/ap-staff-party/04.webp', 'assets/images/projects/ap-staff-party/05.webp', 'assets/images/projects/ap-staff-party/06.webp'],
+    gallery: ['assets/images/projects/ap-staff-party/01.webp', 'assets/images/projects/ap-staff-party/02.webp', 'assets/images/projects/ap-staff-party/03.webp'],
     categories: ['Event', 'Registration'],
     summary: 'ระบบลงทะเบียนและสุ่มรางวัลภายในงานเลี้ยงพนักงาน',
     features: ['Registration System', 'Lucky Draw']
@@ -564,7 +499,7 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'Federbräu',
     image: 'assets/images/projects/federbrau/cover.webp',
-    gallery: ['assets/images/projects/federbrau/01.webp', 'assets/images/projects/federbrau/02.webp', 'assets/images/projects/federbrau/03.webp', 'assets/images/projects/federbrau/04.webp'],
+    gallery: ['assets/images/projects/federbrau/01.webp'],
     categories: ['Event', 'Interactive'],
     summary: 'สื่ออินเทอร์แอ็กทีฟภายในกิจกรรมของแบรนด์',
     features: ['Interactive Display', 'Event System']
@@ -590,7 +525,7 @@ window.TSTONE_PROJECTS = [
     date: '12 ธันวาคม 2561',
     location: 'Rutnin Eye Hospital',
     image: 'assets/images/projects/rutnin/cover.webp',
-    gallery: ['assets/images/projects/rutnin/01.webp', 'assets/images/projects/rutnin/02.webp', 'assets/images/projects/rutnin/03.webp', 'assets/images/projects/rutnin/04.webp', 'assets/images/projects/rutnin/05.webp', 'assets/images/projects/rutnin/06.webp', 'assets/images/projects/rutnin/07.webp', 'assets/images/projects/rutnin/08.webp'],
+    gallery: ['assets/images/projects/rutnin/01.webp', 'assets/images/projects/rutnin/02.webp', 'assets/images/projects/rutnin/03.webp', 'assets/images/projects/rutnin/04.webp', 'assets/images/projects/rutnin/05.webp'],
     categories: ['Event', 'Interactive'],
     summary: 'ระบบถ่ายรูปและแสดงภาพขึ้นจอ ช่วยสร้างบรรยากาศและคอนเทนต์ร่วมกันแบบทันทีภายในงาน',
     features: ['Photo Capture System', 'Live Photo Wall']
@@ -603,7 +538,7 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'Tesco Lotus Fresh Food',
     image: 'assets/images/projects/tesco-fresh-food/cover.webp',
-    gallery: ['assets/images/projects/tesco-fresh-food/01.webp', 'assets/images/projects/tesco-fresh-food/02.webp', 'assets/images/projects/tesco-fresh-food/03.webp', 'assets/images/projects/tesco-fresh-food/04.webp', 'assets/images/projects/tesco-fresh-food/05.webp', 'assets/images/projects/tesco-fresh-food/06.webp', 'assets/images/projects/tesco-fresh-food/07.webp', 'assets/images/projects/tesco-fresh-food/08.webp'],
+    gallery: ['assets/images/projects/tesco-fresh-food/01.webp', 'assets/images/projects/tesco-fresh-food/02.webp', 'assets/images/projects/tesco-fresh-food/03.webp'],
     categories: ['Event', 'Registration'],
     summary: 'ระบบลงทะเบียนและระบบข้อมูลภายในงานของ Tesco Lotus',
     features: ['Registration System', 'Event System']
@@ -616,7 +551,7 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'ThaiBev Expo',
     image: 'assets/images/projects/thaibev-expo/cover.webp',
-    gallery: ['assets/images/projects/thaibev-expo/01.webp', 'assets/images/projects/thaibev-expo/02.webp', 'assets/images/projects/thaibev-expo/03.webp', 'assets/images/projects/thaibev-expo/04.webp', 'assets/images/projects/thaibev-expo/05.webp', 'assets/images/projects/thaibev-expo/06.webp', 'assets/images/projects/thaibev-expo/07.webp', 'assets/images/projects/thaibev-expo/08.webp'],
+    gallery: ['assets/images/projects/thaibev-expo/01.webp', 'assets/images/projects/thaibev-expo/02.webp', 'assets/images/projects/thaibev-expo/03.webp', 'assets/images/projects/thaibev-expo/04.webp', 'assets/images/projects/thaibev-expo/05.webp', 'assets/images/projects/thaibev-expo/06.webp'],
     categories: ['Event', 'Interactive', 'Game'],
     summary: 'กิจกรรมอินเทอร์แอ็กทีฟและเกมภายในบูธของ ThaiBev',
     features: ['Touchscreen Game', 'Interactive Booth']
@@ -629,7 +564,7 @@ window.TSTONE_PROJECTS = [
     date: '23 พฤศจิกายน 2561',
     location: 'UOB Party',
     image: 'assets/images/projects/uob-party/cover.webp',
-    gallery: ['assets/images/projects/uob-party/01.webp', 'assets/images/projects/uob-party/02.webp', 'assets/images/projects/uob-party/03.webp', 'assets/images/projects/uob-party/04.webp', 'assets/images/projects/uob-party/05.webp', 'assets/images/projects/uob-party/06.webp', 'assets/images/projects/uob-party/07.webp', 'assets/images/projects/uob-party/08.webp'],
+    gallery: ['assets/images/projects/uob-party/01.webp', 'assets/images/projects/uob-party/02.webp', 'assets/images/projects/uob-party/03.webp', 'assets/images/projects/uob-party/04.webp', 'assets/images/projects/uob-party/05.webp'],
     categories: ['Event', 'Registration'],
     summary: 'ระบบลงทะเบียนด้วย QR code เชื่อมกิจกรรมภายในงาน แบบสอบถามออนไลน์ การสุ่มรางวัล และสรุปข้อมูลผู้เข้าร่วมงาน',
     features: ['Online Survey', 'QR Code Registration', 'Lucky Draw', 'Participant Data Summary']
@@ -642,7 +577,7 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'กาชาดคอนเสิร์ต กองทัพเรือ',
     image: 'assets/images/projects/red-cross-concert/cover.webp',
-    gallery: ['assets/images/projects/red-cross-concert/01.webp', 'assets/images/projects/red-cross-concert/02.webp', 'assets/images/projects/red-cross-concert/03.webp', 'assets/images/projects/red-cross-concert/04.webp', 'assets/images/projects/red-cross-concert/05.webp', 'assets/images/projects/red-cross-concert/06.webp', 'assets/images/projects/red-cross-concert/07.webp', 'assets/images/projects/red-cross-concert/08.webp'],
+    gallery: ['assets/images/projects/red-cross-concert/01.webp', 'assets/images/projects/red-cross-concert/02.webp', 'assets/images/projects/red-cross-concert/03.webp', 'assets/images/projects/red-cross-concert/04.webp', 'assets/images/projects/red-cross-concert/05.webp', 'assets/images/projects/red-cross-concert/06.webp'],
     categories: ['Event', 'System Integration'],
     summary: 'ระบบลงทะเบียนและระบบแสดงผลภายในงานกาชาดคอนเสิร์ต',
     features: ['Registration System', 'Display System']
@@ -655,7 +590,7 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'งานวันพ่อ บูท ThaiBev',
     image: 'assets/images/projects/fathers-day-thaibev/cover.webp',
-    gallery: ['assets/images/projects/fathers-day-thaibev/01.webp', 'assets/images/projects/fathers-day-thaibev/02.webp', 'assets/images/projects/fathers-day-thaibev/03.webp', 'assets/images/projects/fathers-day-thaibev/04.webp', 'assets/images/projects/fathers-day-thaibev/05.webp'],
+    gallery: ['assets/images/projects/fathers-day-thaibev/01.webp', 'assets/images/projects/fathers-day-thaibev/02.webp', 'assets/images/projects/fathers-day-thaibev/03.webp', 'assets/images/projects/fathers-day-thaibev/04.webp'],
     categories: ['Event', 'Interactive'],
     summary: 'สื่อจัดแสดงภายในบูธงานวันพ่อ',
     features: ['Exhibition Media', 'Display System']
@@ -668,7 +603,7 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'งานวันพ่อ บูทกระทรวงการต่างประเทศ',
     image: 'assets/images/projects/fathers-day-mfa/cover.webp',
-    gallery: ['assets/images/projects/fathers-day-mfa/01.webp', 'assets/images/projects/fathers-day-mfa/02.webp', 'assets/images/projects/fathers-day-mfa/03.webp'],
+    gallery: ['assets/images/projects/fathers-day-mfa/01.webp', 'assets/images/projects/fathers-day-mfa/02.webp'],
     categories: ['Event', 'Interactive'],
     summary: 'สื่อจัดแสดงภายในบูธงานวันพ่อ',
     features: ['Exhibition Media', 'Display System']
@@ -700,19 +635,6 @@ window.TSTONE_PROJECTS = [
     features: ['Registration System', 'Display System', 'Event System']
   },
   {
-    id: 'boonrawd',
-    title: 'บุญรอดบริวเวอรี่',
-    subtitle: 'Brand Activation',
-    year: '2018',
-    date: '2561',
-    location: 'บุญรอดบริวเวอรี่',
-    image: 'assets/images/projects/boonrawd/cover.webp',
-    gallery: ['assets/images/projects/boonrawd/01.webp', 'assets/images/projects/boonrawd/02.webp', 'assets/images/projects/boonrawd/03.webp', 'assets/images/projects/boonrawd/04.webp', 'assets/images/projects/boonrawd/05.webp', 'assets/images/projects/boonrawd/06.webp', 'assets/images/projects/boonrawd/07.webp', 'assets/images/projects/boonrawd/08.webp'],
-    categories: ['Event', 'Interactive'],
-    summary: 'สื่ออินเทอร์แอ็กทีฟและกิจกรรมภายในบูธของบุญรอด',
-    features: ['Interactive Booth', 'Event System']
-  },
-  {
     id: 'nacc-museum',
     title: 'พิพิธภัณฑ์ต้านโกง ป.ป.ช.',
     subtitle: 'Anti-Corruption Museum',
@@ -733,7 +655,7 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'พิพิธภัณฑ์เมืองเพชรบุรี',
     image: 'assets/images/projects/phetchaburi-museum/cover.webp',
-    gallery: ['assets/images/projects/phetchaburi-museum/01.webp', 'assets/images/projects/phetchaburi-museum/02.webp', 'assets/images/projects/phetchaburi-museum/03.webp', 'assets/images/projects/phetchaburi-museum/04.webp'],
+    gallery: ['assets/images/projects/phetchaburi-museum/01.webp', 'assets/images/projects/phetchaburi-museum/02.webp', 'assets/images/projects/phetchaburi-museum/03.webp'],
     categories: ['Museum', 'Interactive'],
     summary: 'สื่อจัดแสดงภายในพิพิธภัณฑ์เมือง เล่าเรื่องท้องถิ่นผ่านจอและสื่ออินเทอร์แอ็กทีฟ',
     features: ['Interactive Display', 'Exhibition Media']
@@ -766,17 +688,17 @@ window.TSTONE_PROJECTS = [
     featured: true
   },
   {
-    id: 'bike-tgo',
-    title: 'Bike อบก. ลพบุรี',
-    subtitle: 'Interactive Cycling Activity',
-    year: '2017',
-    date: '2560',
-    location: 'Bike อบก. ลพบุรี',
-    image: 'assets/images/projects/bike-tgo/cover.webp',
-    gallery: ['assets/images/projects/bike-tgo/01.webp', 'assets/images/projects/bike-tgo/02.webp', 'assets/images/projects/bike-tgo/03.webp'],
-    categories: ['Event', 'Interactive'],
-    summary: 'กิจกรรมปั่นจักรยานที่เชื่อมกับระบบแสดงผลภายในงาน',
-    features: ['Sensor Interactive', 'Display System']
+    id: 'boonrawd',
+    title: 'อุ่นไอรัก บูทบุญรอดบริวเวอรี่',
+    subtitle: 'Interactive Booth & Game',
+    year: '2018',
+    date: '2561',
+    location: 'บูทบุญรอดบริวเวอรี่ งานอุ่นไอรัก คลายความหนาว',
+    image: 'assets/images/projects/boonrawd/cover.webp',
+    gallery: ['assets/images/projects/boonrawd/01.webp', 'assets/images/projects/boonrawd/02.webp', 'assets/images/projects/boonrawd/03.webp', 'assets/images/projects/boonrawd/04.webp'],
+    categories: ['Event', 'Interactive', 'Game'],
+    summary: 'เกมจอสัมผัสเรื่องการเก็บขยะและสื่ออินเทอร์แอ็กทีฟภายในบูทบุญรอดบริวเวอรี่ ในงานอุ่นไอรัก คลายความหนาว',
+    features: ['Touchscreen Game', 'Interactive Booth', 'Exhibition Media']
   },
   {
     id: 'scb-klamai',
@@ -790,6 +712,19 @@ window.TSTONE_PROJECTS = [
     categories: ['Event', 'Interactive'],
     summary: 'สื่ออินเทอร์แอ็กทีฟและระบบภายในกิจกรรมของโครงการ',
     features: ['Interactive Display', 'Event System']
+  },
+  {
+    id: 'bike-tgo',
+    title: 'พิพิธภัณฑ์ อบก. ลพบุรี',
+    subtitle: 'Interactive Cycling Exhibit',
+    year: '2017',
+    date: '2560',
+    location: 'องค์การบริหารจัดการก๊าซเรือนกระจก (อบก.) ลพบุรี',
+    image: 'assets/images/projects/bike-tgo/cover.webp',
+    gallery: ['assets/images/projects/bike-tgo/01.webp', 'assets/images/projects/bike-tgo/02.webp'],
+    categories: ['Museum', 'Interactive'],
+    summary: 'ชุดจัดแสดงปั่นจักรยานลดโลกร้อน ปั่นแล้วหน้าจอแสดงผลลัพธ์การลดคาร์บอนแบบทันที',
+    features: ['Sensor Interactive', 'Interactive Display', 'Exhibition Media']
   },
   {
     id: 'isb',
@@ -812,22 +747,9 @@ window.TSTONE_PROJECTS = [
     date: '2559',
     location: 'ThaiBev Sport Expo',
     image: 'assets/images/projects/thaibev-sport-expo/cover.webp',
-    gallery: ['assets/images/projects/thaibev-sport-expo/01.webp', 'assets/images/projects/thaibev-sport-expo/02.webp', 'assets/images/projects/thaibev-sport-expo/03.webp', 'assets/images/projects/thaibev-sport-expo/04.webp', 'assets/images/projects/thaibev-sport-expo/05.webp', 'assets/images/projects/thaibev-sport-expo/06.webp', 'assets/images/projects/thaibev-sport-expo/07.webp', 'assets/images/projects/thaibev-sport-expo/08.webp'],
+    gallery: ['assets/images/projects/thaibev-sport-expo/01.webp', 'assets/images/projects/thaibev-sport-expo/02.webp', 'assets/images/projects/thaibev-sport-expo/03.webp', 'assets/images/projects/thaibev-sport-expo/04.webp', 'assets/images/projects/thaibev-sport-expo/05.webp', 'assets/images/projects/thaibev-sport-expo/06.webp', 'assets/images/projects/thaibev-sport-expo/07.webp'],
     categories: ['Event', 'Interactive'],
     summary: 'กิจกรรมอินเทอร์แอ็กทีฟภายในบูธงานกีฬา รวมถึงกิจกรรมปั่นจักรยาน',
     features: ['Interactive Booth', 'Sensor Interactive']
-  },
-  {
-    id: 'voice-kids',
-    title: 'The Voice Kids',
-    subtitle: 'TV Show System',
-    year: '2016',
-    date: '2559',
-    location: 'The Voice Kids',
-    image: 'assets/images/projects/voice-kids/cover.webp',
-    gallery: ['assets/images/projects/voice-kids/01.webp', 'assets/images/projects/voice-kids/02.webp', 'assets/images/projects/voice-kids/03.webp', 'assets/images/projects/voice-kids/04.webp'],
-    categories: ['Event', 'System Integration'],
-    summary: 'ระบบสนับสนุนการผลิตและแสดงผลภายในรายการ',
-    features: ['Display System', 'System Integration']
   }
 ];
