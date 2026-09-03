@@ -80,6 +80,27 @@
     });
   }
 
+  // แถบโลโก้ลูกค้า เลื่อนไปทางซ้ายไม่มีสะดุด ขอบสองข้างเฟดออก
+  function renderClientMarquee() {
+    const host = document.querySelector('[data-client-marquee]');
+    const list = window.TSTONE_CLIENTS || [];
+    if (!host || !list.length) return;
+
+    const tile = c => `
+      <div class="client-tile" title="${esc(c.name)}">
+        ${c.logo
+          ? `<img src="assets/images/clients/${esc(c.logo)}" alt="${esc(c.name)}" loading="lazy"
+                 onerror="this.closest('.client-tile').classList.add('is-text');this.remove()">`
+          : ''}
+        <span>${esc(c.name)}</span>
+      </div>`;
+
+    const row = list.map(tile).join('');
+    // วางสองชุดต่อกัน พอเลื่อนครบชุดแรกก็วนกลับมาแบบเนียน
+    host.innerHTML = `<div class="client-track">${row}${row}</div>`;
+    host.style.setProperty('--client-count', list.length);
+  }
+
   function setupNavigation() {
     const toggle = document.querySelector('.nav-toggle');
     const nav = document.querySelector('.site-nav');
@@ -239,6 +260,7 @@
 
   document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
   setupNavigation();
+  renderClientMarquee();
   renderFeatured();
   renderWork();
   renderProjectDetail();
