@@ -22,6 +22,64 @@
       </div>
     </article>`;
 
+  // แกลเลอรีรูปหน้างานจริง — คลิกแล้วเปิดดูเต็มจอ
+  const gallerySection = (project) => {
+    const shots = (project.gallery || []).filter(src => src !== project.image);
+    if (!shots.length) return '';
+    return `
+      <section class="section section--white">
+        <div class="container">
+          <p class="eyebrow reveal">Gallery</p>
+          <h2 class="gallery-title reveal">ภาพจากหน้างานจริง</h2>
+          <div class="project-gallery reveal" data-gallery>
+            ${shots.map((src, i) => `
+              <button class="gallery-item" type="button" data-index="${i}">
+                <img src="${esc(src)}" alt="${esc(project.title)} ${i + 1}" loading="lazy" decoding="async">
+              </button>`).join('')}
+          </div>
+        </div>
+      </section>`;
+  };
+
+  function setupLightbox(shots, title) {
+    const grid = document.querySelector('[data-gallery]');
+    if (!grid || !shots.length) return;
+    const box = document.createElement('div');
+    box.className = 'lightbox';
+    box.innerHTML = `
+      <button class="lightbox__close" aria-label="ปิด">✕</button>
+      <button class="lightbox__nav lightbox__nav--prev" aria-label="ก่อนหน้า">‹</button>
+      <img class="lightbox__img" alt="">
+      <button class="lightbox__nav lightbox__nav--next" aria-label="ถัดไป">›</button>
+      <div class="lightbox__count"></div>`;
+    document.body.appendChild(box);
+    const img = box.querySelector('.lightbox__img');
+    const count = box.querySelector('.lightbox__count');
+    let i = 0;
+    const show = n => {
+      i = (n + shots.length) % shots.length;
+      img.src = shots[i];
+      img.alt = `${title} ${i + 1}`;
+      count.textContent = `${i + 1} / ${shots.length}`;
+    };
+    const open = n => { show(n); box.classList.add('is-open'); document.body.style.overflow = 'hidden'; };
+    const close = () => { box.classList.remove('is-open'); document.body.style.overflow = ''; };
+    grid.addEventListener('click', e => {
+      const b = e.target.closest('.gallery-item');
+      if (b) open(+b.dataset.index);
+    });
+    box.querySelector('.lightbox__close').addEventListener('click', close);
+    box.querySelector('.lightbox__nav--prev').addEventListener('click', () => show(i - 1));
+    box.querySelector('.lightbox__nav--next').addEventListener('click', () => show(i + 1));
+    box.addEventListener('click', e => { if (e.target === box) close(); });
+    document.addEventListener('keydown', e => {
+      if (!box.classList.contains('is-open')) return;
+      if (e.key === 'Escape') close();
+      if (e.key === 'ArrowRight') show(i + 1);
+      if (e.key === 'ArrowLeft') show(i - 1);
+    });
+  }
+
   function setupNavigation() {
     const toggle = document.querySelector('.nav-toggle');
     const nav = document.querySelector('.site-nav');
@@ -131,12 +189,14 @@
           </div>
         </div>
       </section>
+      ${gallerySection(project)}
       <section class="section section--dark">
         <div class="container cta-panel reveal">
           <div><p class="eyebrow">Have a project in mind?</p><h2>สร้างประสบการณ์ใหม่ไปด้วยกัน</h2></div>
           <a class="button button--light" href="contact.html">คุยเรื่องโปรเจกต์ <span>↗</span></a>
         </div>
       </section>`;
+    setupLightbox((project.gallery || []).filter(src => src !== project.image), project.title);
     initReveal();
   }
 
