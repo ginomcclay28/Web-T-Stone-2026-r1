@@ -469,3 +469,21 @@ h3 { font-size: 1.45rem; margin-bottom: 12px; }
   .client-track { animation: none; }
   .client-marquee { overflow-x: auto; }
 }
+
+/* ---------------- ปุ่มลิงก์ไปเว็บเดโมภายนอกบนแถบเมนู ---------------- */
+.site-nav .nav-demo {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 7px 14px; border-radius: 999px;
+  border: 1.5px solid var(--line);
+  font-size: 14px; font-weight: 700; letter-spacing: .01em;
+  color: var(--ink); white-space: nowrap;
+  transition: background .2s ease, border-color .2s ease, transform .2s ease;
+}
+.site-nav .nav-demo span { font-size: 11px; opacity: .55; }
+.site-nav .nav-demo:hover {
+  background: var(--lime); border-color: var(--lime); transform: translateY(-1px);
+}
+.site-nav .nav-demo:hover span { opacity: .8; }
+@media (max-width: 1180px) {
+  .site-nav .nav-demo { padding: 6px 11px; font-size: 13px; }
+}

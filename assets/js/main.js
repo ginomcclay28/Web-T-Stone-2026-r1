@@ -89,7 +89,7 @@
     const tile = c => `
       <div class="client-tile" title="${esc(c.name)}">
         ${c.logo
-          ? `<img src="assets/images/clients/${esc(c.logo)}" alt="${esc(c.name)}" loading="lazy"
+          ? `<img src="assets/images/clients/${esc(c.logo)}" alt="${esc(c.name)}" decoding="async"
                  onerror="this.closest('.client-tile').classList.add('is-text');this.remove()">`
           : ''}
         <span>${esc(c.name)}</span>
