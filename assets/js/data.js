@@ -342,10 +342,10 @@ window.TSTONE_PROJECTS = [
     date: '2562',
     location: 'ณ สัทธา อุทยานไทย ราชบุรี',
     image: 'assets/images/projects/nasatta/cover.webp',
-    gallery: ['assets/images/projects/nasatta/01.webp', 'assets/images/projects/nasatta/02.webp', 'assets/images/projects/nasatta/03.webp', 'assets/images/projects/nasatta/04.webp', 'assets/images/projects/nasatta/05.webp', 'assets/images/projects/nasatta/06.webp', 'assets/images/projects/nasatta/07.webp', 'assets/images/projects/nasatta/08.webp', 'assets/images/projects/nasatta/09.webp', 'assets/images/projects/nasatta/10.webp', 'assets/images/projects/nasatta/11.webp', 'assets/images/projects/nasatta/12.webp', 'assets/images/projects/nasatta/13.webp', 'assets/images/projects/nasatta/14.webp'],
-    categories: ['Application', 'Museum', 'Interactive'],
-    summary: 'สื่อจัดแสดงและงานฉายภาพภายในอาคารนิทรรศการ ณ สัทธา อุทยานไทย พร้อมแอป NaSatta สำหรับผู้เข้าชม',
-    features: ['Projection Mapping', 'Interactive Display', 'Mobile AR App']
+    gallery: ['assets/images/projects/nasatta/01.webp', 'assets/images/projects/nasatta/02.webp', 'assets/images/projects/nasatta/03.webp', 'assets/images/projects/nasatta/04.webp', 'assets/images/projects/nasatta/05.webp', 'assets/images/projects/nasatta/06.webp', 'assets/images/projects/nasatta/07.webp', 'assets/images/projects/nasatta/08.webp'],
+    categories: ['Museum', 'Interactive'],
+    summary: 'สื่อจัดแสดงและงานฉายภาพ Projection Mapping ภายในอาคารนิทรรศการ ณ สัทธา อุทยานไทย',
+    features: ['Projection Mapping', 'Interactive Display', 'Exhibition Media']
   },
   {
     id: 'museum-parliament',
@@ -478,6 +478,19 @@ window.TSTONE_PROJECTS = [
     features: ['Interactive Globe', 'Touch Table', 'Immersive Room']
   },
   {
+    id: 'nasatta-app',
+    title: 'Application Nasatta',
+    subtitle: 'Visitor Guide & AR Application',
+    year: '2019',
+    date: '2562',
+    location: 'ณ สัทธา อุทยานไทย ราชบุรี',
+    image: 'assets/images/projects/nasatta-app/cover.webp',
+    gallery: ['assets/images/projects/nasatta-app/01.webp', 'assets/images/projects/nasatta-app/02.webp', 'assets/images/projects/nasatta-app/03.webp', 'assets/images/projects/nasatta-app/04.webp', 'assets/images/projects/nasatta-app/05.webp', 'assets/images/projects/nasatta-app/06.webp'],
+    categories: ['Application', 'Museum', 'Interactive', 'Game'],
+    summary: 'แอป NaSatta สำหรับผู้เข้าชม ณ สัทธา อุทยานไทย มีแผนที่อุทยาน สแกน AR ตามจุดต่าง ๆ และเกมสะสมแต้มระหว่างเดินชม',
+    features: ['Mobile Application', 'AR Scan', 'Park Map', 'Collect & Play']
+  },
+  {
     id: 'bot-money-terminal',
     title: 'BOT Money Terminal',
     subtitle: 'Interactive Money Terminal',
@@ -485,8 +498,8 @@ window.TSTONE_PROJECTS = [
     date: '2561',
     location: 'ธนาคารแห่งประเทศไทย',
     image: 'assets/images/projects/bot-money-terminal/cover.webp',
-    gallery: ['assets/images/projects/bot-money-terminal/01.webp', 'assets/images/projects/bot-money-terminal/02.webp', 'assets/images/projects/bot-money-terminal/03.webp', 'assets/images/projects/bot-money-terminal/04.webp', 'assets/images/projects/bot-money-terminal/05.webp', 'assets/images/projects/bot-money-terminal/06.webp', 'assets/images/projects/bot-money-terminal/07.webp', 'assets/images/projects/bot-money-terminal/08.webp', 'assets/images/projects/bot-money-terminal/09.webp', 'assets/images/projects/bot-money-terminal/10.webp', 'assets/images/projects/bot-money-terminal/11.webp', 'assets/images/projects/bot-money-terminal/12.webp', 'assets/images/projects/bot-money-terminal/13.webp', 'assets/images/projects/bot-money-terminal/14.webp', 'assets/images/projects/bot-money-terminal/15.webp', 'assets/images/projects/bot-money-terminal/16.webp', 'assets/images/projects/bot-money-terminal/17.webp', 'assets/images/projects/bot-money-terminal/18.webp', 'assets/images/projects/bot-money-terminal/19.webp', 'assets/images/projects/bot-money-terminal/20.webp', 'assets/images/projects/bot-money-terminal/21.webp', 'assets/images/projects/bot-money-terminal/22.webp', 'assets/images/projects/bot-money-terminal/23.webp', 'assets/images/projects/bot-money-terminal/24.webp', 'assets/images/projects/bot-money-terminal/25.webp'],
-    categories: ['Application', 'Museum', 'Interactive'],
+    gallery: ['assets/images/projects/bot-money-terminal/01.webp', 'assets/images/projects/bot-money-terminal/02.webp', 'assets/images/projects/bot-money-terminal/03.webp', 'assets/images/projects/bot-money-terminal/04.webp', 'assets/images/projects/bot-money-terminal/05.webp'],
+    categories: ['Museum', 'Interactive'],
     summary: 'ตู้จัดแสดงเรื่องเงินตราแบบอินเทอร์แอ็กทีฟ ให้ผู้ชมเลือกดูข้อมูลได้ด้วยตัวเอง',
     features: ['Interactive Terminal', 'Informative Kiosk']
   },
@@ -554,6 +567,19 @@ window.TSTONE_PROJECTS = [
     categories: ['Museum', 'Interactive'],
     summary: 'ฉายภาพ Projection Mapping ลงบนสถาปัตยกรรมและประติมากรรมภายในอุทยาน',
     features: ['Projection Mapping', 'Show Control', 'Lighting']
+  },
+  {
+    id: 'bot-money-terminal-app',
+    title: 'Application BOT Money Terminal',
+    subtitle: 'Interactive Learning Application',
+    year: '2018',
+    date: '2561',
+    location: 'ธนาคารแห่งประเทศไทย',
+    image: 'assets/images/projects/bot-money-terminal-app/cover.webp',
+    gallery: ['assets/images/projects/bot-money-terminal-app/01.webp', 'assets/images/projects/bot-money-terminal-app/02.webp', 'assets/images/projects/bot-money-terminal-app/03.webp', 'assets/images/projects/bot-money-terminal-app/04.webp', 'assets/images/projects/bot-money-terminal-app/05.webp', 'assets/images/projects/bot-money-terminal-app/06.webp', 'assets/images/projects/bot-money-terminal-app/07.webp', 'assets/images/projects/bot-money-terminal-app/08.webp', 'assets/images/projects/bot-money-terminal-app/09.webp', 'assets/images/projects/bot-money-terminal-app/10.webp', 'assets/images/projects/bot-money-terminal-app/11.webp', 'assets/images/projects/bot-money-terminal-app/12.webp', 'assets/images/projects/bot-money-terminal-app/13.webp', 'assets/images/projects/bot-money-terminal-app/14.webp', 'assets/images/projects/bot-money-terminal-app/15.webp', 'assets/images/projects/bot-money-terminal-app/16.webp', 'assets/images/projects/bot-money-terminal-app/17.webp', 'assets/images/projects/bot-money-terminal-app/18.webp', 'assets/images/projects/bot-money-terminal-app/19.webp', 'assets/images/projects/bot-money-terminal-app/20.webp'],
+    categories: ['Application', 'Museum', 'Interactive'],
+    summary: 'แอปพลิเคชันประกอบนิทรรศการ BOT Money Terminal จำลองการเดินทางเพื่อเรียนรู้เรื่องการวางแผนการเงิน กรอกข้อมูล ตอบคำถาม แล้วรับบอร์ดดิ้งพาสของตัวเอง',
+    features: ['Interactive Application', 'Financial Planning Quiz', 'Personal Boarding Pass', 'Chatbot']
   },
   {
     id: 'bike-tgo',
