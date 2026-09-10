@@ -1,18 +1,5 @@
 window.TSTONE_PROJECTS = [
   {
-    id: 'thailand-mobile-expo',
-    title: 'Thailand Mobile Expo',
-    subtitle: 'AIS Integrated Event System',
-    year: '2013-2026',
-    date: 'จัดต่อเนื่องหลายครั้ง ปี 2556 – ปัจจุบัน',
-    location: 'Thailand Mobile Expo',
-    image: 'assets/images/projects/thailand-mobile-expo/cover.webp',
-    gallery: ['assets/images/projects/thailand-mobile-expo/01.webp', 'assets/images/projects/thailand-mobile-expo/02.webp', 'assets/images/projects/thailand-mobile-expo/03.webp', 'assets/images/projects/thailand-mobile-expo/04.webp', 'assets/images/projects/thailand-mobile-expo/05.webp', 'assets/images/projects/thailand-mobile-expo/06.webp', 'assets/images/projects/thailand-mobile-expo/07.webp', 'assets/images/projects/thailand-mobile-expo/08.webp'],
-    categories: ['Event', 'System Integration'],
-    summary: 'รวมหลายระบบไว้ในงานเดียว ตั้งแต่เรียกคิว ระบบกันขโมยพร้อมแท่นวางมือถือ ไปจนถึงระบบโชว์เบอร์สวย',
-    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'ระบบโชว์เบอร์สวย AIS']
-  },
-  {
     id: 'the-odyssey',
     title: 'The Odyssey',
     subtitle: 'Stage & Interactive Experience',
@@ -65,6 +52,32 @@ window.TSTONE_PROJECTS = [
     categories: ['Museum', 'Interactive'],
     summary: 'ปรับปรุงห้องฉายภาพโค้งและระบบสื่อจัดแสดงใหม่ทั้งชุด',
     features: ['Curved Projection', 'System Integration', 'Exhibition Media']
+  },
+  {
+    id: '3bb-fibre-2026',
+    title: 'AIS 3BB Fibre3 @ Thailand Mobile Expo 2026',
+    subtitle: 'Booth Media & Display System',
+    year: '2026',
+    date: 'มีนาคม 2569',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/3bb-fibre-2026/cover.webp',
+    gallery: ['assets/images/projects/3bb-fibre-2026/01.webp', 'assets/images/projects/3bb-fibre-2026/02.webp', 'assets/images/projects/3bb-fibre-2026/03.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'จอแสดงผลและระบบสื่อในบูท AIS 3BB Fibre3 ภายในงาน Thailand Mobile Expo 2026',
+    features: ['Display System', 'Booth Media', 'On-site Support']
+  },
+  {
+    id: 'tme-2026-03',
+    title: 'Thailand Mobile Expo Mar 2026',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2026',
+    date: 'มีนาคม 2569',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2026-03/cover.webp',
+    gallery: ['assets/images/projects/tme-2026-03/01.webp', 'assets/images/projects/tme-2026-03/02.webp', 'assets/images/projects/tme-2026-03/03.webp', 'assets/images/projects/tme-2026-03/04.webp', 'assets/images/projects/tme-2026-03/05.webp', 'assets/images/projects/tme-2026-03/06.webp', 'assets/images/projects/tme-2026-03/07.webp', 'assets/images/projects/tme-2026-03/08.webp', 'assets/images/projects/tme-2026-03/09.webp', 'assets/images/projects/tme-2026-03/10.webp', 'assets/images/projects/tme-2026-03/11.webp', 'assets/images/projects/tme-2026-03/12.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Mar 2026 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย พร้อมหุ่นยนต์เดินโชว์หน้าบูท',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
   },
   {
     id: 'rd-museum',
@@ -578,6 +591,32 @@ window.TSTONE_PROJECTS = [
     features: ['Registration', 'Display System']
   },
   {
+    id: 'tme-2025-01',
+    title: 'Thailand Mobile Expo Jan 2025',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2025',
+    date: 'มกราคม 2568',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2025-01/cover.webp',
+    gallery: ['assets/images/projects/tme-2025-01/01.webp', 'assets/images/projects/tme-2025-01/02.webp', 'assets/images/projects/tme-2025-01/03.webp', 'assets/images/projects/tme-2025-01/04.webp', 'assets/images/projects/tme-2025-01/05.webp', 'assets/images/projects/tme-2025-01/06.webp', 'assets/images/projects/tme-2025-01/07.webp', 'assets/images/projects/tme-2025-01/08.webp', 'assets/images/projects/tme-2025-01/09.webp', 'assets/images/projects/tme-2025-01/10.webp', 'assets/images/projects/tme-2025-01/11.webp', 'assets/images/projects/tme-2025-01/12.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Jan 2025 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย พร้อมกิจกรรมมาสคอตหน้าบูท',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
+  },
+  {
+    id: 'tme-2025-10',
+    title: 'Thailand Mobile Expo Oct 2025',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2025',
+    date: 'ตุลาคม 2568',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2025-10/cover.webp',
+    gallery: ['assets/images/projects/tme-2025-10/01.webp', 'assets/images/projects/tme-2025-10/02.webp', 'assets/images/projects/tme-2025-10/03.webp', 'assets/images/projects/tme-2025-10/04.webp', 'assets/images/projects/tme-2025-10/05.webp', 'assets/images/projects/tme-2025-10/06.webp', 'assets/images/projects/tme-2025-10/07.webp', 'assets/images/projects/tme-2025-10/08.webp', 'assets/images/projects/tme-2025-10/09.webp', 'assets/images/projects/tme-2025-10/10.webp', 'assets/images/projects/tme-2025-10/11.webp', 'assets/images/projects/tme-2025-10/12.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Oct 2025 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย รวมโซน AI CAM และ Fibre3',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
+  },
+  {
     id: 'grabfood-hotdeal',
     title: 'GrabFood HotDeal 2024',
     subtitle: 'Interactive Booth',
@@ -708,6 +747,45 @@ window.TSTONE_PROJECTS = [
     features: ['Registration', 'Digital Signature']
   },
   {
+    id: 'ais-iphone-16',
+    title: 'AIS iPhone 16 NPI & Press Conference',
+    subtitle: 'New Product Launch — Queue, Registration & Press Stage',
+    year: '2024',
+    date: 'กันยายน 2567',
+    location: 'AIS Shop',
+    image: 'assets/images/projects/ais-iphone-16/cover.webp',
+    gallery: ['assets/images/projects/ais-iphone-16/01.webp', 'assets/images/projects/ais-iphone-16/02.webp', 'assets/images/projects/ais-iphone-16/03.webp', 'assets/images/projects/ais-iphone-16/04.webp', 'assets/images/projects/ais-iphone-16/05.webp', 'assets/images/projects/ais-iphone-16/06.webp', 'assets/images/projects/ais-iphone-16/07.webp', 'assets/images/projects/ais-iphone-16/08.webp', 'assets/images/projects/ais-iphone-16/09.webp', 'assets/images/projects/ais-iphone-16/10.webp', 'assets/images/projects/ais-iphone-16/11.webp', 'assets/images/projects/ais-iphone-16/12.webp'],
+    categories: ['Event', 'Registration', 'System Integration'],
+    summary: 'ระบบเรียกคิว ลงทะเบียน และจอแสดงผลในวันจำหน่าย iPhone 16 พร้อมระบบภาพงานแถลงข่าวของ AIS',
+    features: ['Registration', 'Queue System', 'LED Stage', 'Press Conference']
+  },
+  {
+    id: 'tme-2024-02',
+    title: 'Thailand Mobile Expo Feb 2024',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2024',
+    date: 'กุมภาพันธ์ 2567',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2024-02/cover.webp',
+    gallery: ['assets/images/projects/tme-2024-02/01.webp', 'assets/images/projects/tme-2024-02/02.webp', 'assets/images/projects/tme-2024-02/03.webp', 'assets/images/projects/tme-2024-02/04.webp', 'assets/images/projects/tme-2024-02/05.webp', 'assets/images/projects/tme-2024-02/06.webp', 'assets/images/projects/tme-2024-02/07.webp', 'assets/images/projects/tme-2024-02/08.webp', 'assets/images/projects/tme-2024-02/09.webp', 'assets/images/projects/tme-2024-02/10.webp', 'assets/images/projects/tme-2024-02/11.webp', 'assets/images/projects/tme-2024-02/12.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Feb 2024 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
+  },
+  {
+    id: 'tme-2024-10',
+    title: 'Thailand Mobile Expo Oct 2024',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2024',
+    date: 'ตุลาคม 2567',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2024-10/cover.webp',
+    gallery: ['assets/images/projects/tme-2024-10/01.webp', 'assets/images/projects/tme-2024-10/02.webp', 'assets/images/projects/tme-2024-10/03.webp', 'assets/images/projects/tme-2024-10/04.webp', 'assets/images/projects/tme-2024-10/05.webp', 'assets/images/projects/tme-2024-10/06.webp', 'assets/images/projects/tme-2024-10/07.webp', 'assets/images/projects/tme-2024-10/08.webp', 'assets/images/projects/tme-2024-10/09.webp', 'assets/images/projects/tme-2024-10/10.webp', 'assets/images/projects/tme-2024-10/11.webp', 'assets/images/projects/tme-2024-10/12.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Oct 2024 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
+  },
+  {
     id: 'ndc-photobooth',
     title: 'Photo Booth วิทยาลัยป้องกันราชอาณาจักร',
     subtitle: 'Photo Booth System',
@@ -745,6 +823,32 @@ window.TSTONE_PROJECTS = [
     categories: ['Event', 'Interactive'],
     summary: 'จอกิจกรรมและระบบเกมในบูท ThaiBev งานกาชาดประจำปี 2566',
     features: ['Interactive Display', 'Game', 'Event Media']
+  },
+  {
+    id: 'ais-iphone-15',
+    title: 'AIS iPhone 15 NPI',
+    subtitle: 'New Product Launch Registration & Queue',
+    year: '2023',
+    date: 'กันยายน 2566',
+    location: 'AIS Shop',
+    image: 'assets/images/projects/ais-iphone-15/cover.webp',
+    gallery: ['assets/images/projects/ais-iphone-15/01.webp', 'assets/images/projects/ais-iphone-15/02.webp', 'assets/images/projects/ais-iphone-15/03.webp', 'assets/images/projects/ais-iphone-15/04.webp', 'assets/images/projects/ais-iphone-15/05.webp', 'assets/images/projects/ais-iphone-15/06.webp', 'assets/images/projects/ais-iphone-15/07.webp', 'assets/images/projects/ais-iphone-15/08.webp', 'assets/images/projects/ais-iphone-15/09.webp', 'assets/images/projects/ais-iphone-15/10.webp', 'assets/images/projects/ais-iphone-15/11.webp', 'assets/images/projects/ais-iphone-15/12.webp'],
+    categories: ['Event', 'Registration', 'System Integration'],
+    summary: 'ระบบลงทะเบียน เรียกคิว และจอแสดงผลสำหรับวันจำหน่าย iPhone 15 ที่ AIS',
+    features: ['Registration', 'Queue System', 'Display System']
+  },
+  {
+    id: 'tme-2023-03',
+    title: 'Thailand Mobile Expo Mar 2023',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2023',
+    date: 'มีนาคม 2566',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2023-03/cover.webp',
+    gallery: ['assets/images/projects/tme-2023-03/01.webp', 'assets/images/projects/tme-2023-03/02.webp', 'assets/images/projects/tme-2023-03/03.webp', 'assets/images/projects/tme-2023-03/04.webp', 'assets/images/projects/tme-2023-03/05.webp', 'assets/images/projects/tme-2023-03/06.webp', 'assets/images/projects/tme-2023-03/07.webp', 'assets/images/projects/tme-2023-03/08.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Mar 2023 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
   },
   {
     id: 'thaibev-paragon',
@@ -825,6 +929,45 @@ window.TSTONE_PROJECTS = [
     features: ['Registration', 'Tablet Check-in']
   },
   {
+    id: 'ais-press-2022',
+    title: 'AIS Press Conference @ Thailand Mobile Expo 2022',
+    subtitle: 'Press Conference Media System',
+    year: '2022',
+    date: '2565',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/ais-press-2022/cover.webp',
+    gallery: ['assets/images/projects/ais-press-2022/01.webp', 'assets/images/projects/ais-press-2022/02.webp', 'assets/images/projects/ais-press-2022/03.webp', 'assets/images/projects/ais-press-2022/04.webp', 'assets/images/projects/ais-press-2022/05.webp', 'assets/images/projects/ais-press-2022/06.webp', 'assets/images/projects/ais-press-2022/07.webp', 'assets/images/projects/ais-press-2022/08.webp', 'assets/images/projects/ais-press-2022/09.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบภาพและจอ LED บนเวทีงานแถลงข่าว AIS Fibre และ iPhone 14 Pro ภายในงาน Thailand Mobile Expo',
+    features: ['LED Stage', 'Media System', 'Live Event']
+  },
+  {
+    id: 'tme-2022-05',
+    title: 'Thailand Mobile Expo May 2022',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2022',
+    date: 'พฤษภาคม 2565',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2022-05/cover.webp',
+    gallery: ['assets/images/projects/tme-2022-05/01.webp', 'assets/images/projects/tme-2022-05/02.webp', 'assets/images/projects/tme-2022-05/03.webp', 'assets/images/projects/tme-2022-05/04.webp', 'assets/images/projects/tme-2022-05/05.webp', 'assets/images/projects/tme-2022-05/06.webp', 'assets/images/projects/tme-2022-05/07.webp', 'assets/images/projects/tme-2022-05/08.webp', 'assets/images/projects/tme-2022-05/09.webp', 'assets/images/projects/tme-2022-05/10.webp', 'assets/images/projects/tme-2022-05/11.webp', 'assets/images/projects/tme-2022-05/12.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo May 2022 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
+  },
+  {
+    id: 'tme-2022-10',
+    title: 'Thailand Mobile Expo Oct 2022',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2022',
+    date: 'ตุลาคม 2565',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2022-10/cover.webp',
+    gallery: ['assets/images/projects/tme-2022-10/01.webp', 'assets/images/projects/tme-2022-10/02.webp', 'assets/images/projects/tme-2022-10/03.webp', 'assets/images/projects/tme-2022-10/04.webp', 'assets/images/projects/tme-2022-10/05.webp', 'assets/images/projects/tme-2022-10/06.webp', 'assets/images/projects/tme-2022-10/07.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Oct 2022 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
+  },
+  {
     id: 'abbott-live-2021',
     title: 'Abbott Live 2021',
     subtitle: 'Virtual Live Studio',
@@ -875,6 +1018,32 @@ window.TSTONE_PROJECTS = [
     categories: ['Event', 'Interactive'],
     summary: 'สื่อจัดแสดงภายในบูธงานวันพ่อ',
     features: ['Exhibition Media', 'Display System']
+  },
+  {
+    id: 'tme-2020-02',
+    title: 'Thailand Mobile Expo Feb 2020',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2020',
+    date: 'กุมภาพันธ์ 2563',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2020-02/cover.webp',
+    gallery: ['assets/images/projects/tme-2020-02/01.webp', 'assets/images/projects/tme-2020-02/02.webp', 'assets/images/projects/tme-2020-02/03.webp', 'assets/images/projects/tme-2020-02/04.webp', 'assets/images/projects/tme-2020-02/05.webp', 'assets/images/projects/tme-2020-02/06.webp', 'assets/images/projects/tme-2020-02/07.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Feb 2020 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
+  },
+  {
+    id: 'tme-2020-10',
+    title: 'Thailand Mobile Expo Oct 2020',
+    subtitle: 'AIS Booth — Integrated Event System',
+    year: '2020',
+    date: 'ตุลาคม 2563',
+    location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์',
+    image: 'assets/images/projects/tme-2020-10/cover.webp',
+    gallery: ['assets/images/projects/tme-2020-10/01.webp', 'assets/images/projects/tme-2020-10/02.webp', 'assets/images/projects/tme-2020-10/03.webp', 'assets/images/projects/tme-2020-10/04.webp', 'assets/images/projects/tme-2020-10/05.webp', 'assets/images/projects/tme-2020-10/06.webp', 'assets/images/projects/tme-2020-10/07.webp', 'assets/images/projects/tme-2020-10/08.webp', 'assets/images/projects/tme-2020-10/09.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'ระบบครบวงจรในบูท AIS งาน Thailand Mobile Expo Oct 2020 ทั้งเรียกคิว จอโปรโมชัน ระบบกันขโมยแท่นวางมือถือ และเบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชันและเบอร์สวย', 'ทีมดูแลหน้างานตลอดงาน']
   },
   {
     id: 'ais-esport',
@@ -1072,6 +1241,32 @@ window.TSTONE_PROJECTS = [
     features: ['Registration', 'Display System']
   },
   {
+    id: 'ais-bigbang-2019',
+    title: 'AIS 5G The Next Generation @ Big Bang 2019',
+    subtitle: '5G Demo Zone — VR / Video AI / Remote Vehicle',
+    year: '2019',
+    date: 'พฤศจิกายน 2562',
+    location: 'อิมแพ็ค เมืองทองธานี',
+    image: 'assets/images/projects/ais-bigbang-2019/cover.webp',
+    gallery: ['assets/images/projects/ais-bigbang-2019/01.webp', 'assets/images/projects/ais-bigbang-2019/02.webp', 'assets/images/projects/ais-bigbang-2019/03.webp', 'assets/images/projects/ais-bigbang-2019/04.webp', 'assets/images/projects/ais-bigbang-2019/05.webp', 'assets/images/projects/ais-bigbang-2019/06.webp', 'assets/images/projects/ais-bigbang-2019/07.webp', 'assets/images/projects/ais-bigbang-2019/08.webp', 'assets/images/projects/ais-bigbang-2019/09.webp', 'assets/images/projects/ais-bigbang-2019/10.webp', 'assets/images/projects/ais-bigbang-2019/11.webp', 'assets/images/projects/ais-bigbang-2019/12.webp'],
+    categories: ['Event', 'Interactive', 'System Integration'],
+    summary: 'โซนสาธิต 5G ของ AIS ในงาน Big Bang 2019 ทั้งจอ Video AI, VR, และรถควบคุมระยะไกลผ่าน 5G พร้อมระบบสื่อทั้งบูท',
+    features: ['5G Demo', 'VR', 'Remote Control Vehicle', 'Display System']
+  },
+  {
+    id: 'ais-5g-samyan',
+    title: 'AIS 5G @ สามย่านมิตรทาวน์',
+    subtitle: '5G Showcase & Remote Vehicle',
+    year: '2019',
+    date: '2562',
+    location: 'สามย่านมิตรทาวน์',
+    image: 'assets/images/projects/ais-5g-samyan/cover.webp',
+    gallery: ['assets/images/projects/ais-5g-samyan/01.webp', 'assets/images/projects/ais-5g-samyan/02.webp', 'assets/images/projects/ais-5g-samyan/03.webp', 'assets/images/projects/ais-5g-samyan/04.webp', 'assets/images/projects/ais-5g-samyan/05.webp', 'assets/images/projects/ais-5g-samyan/06.webp', 'assets/images/projects/ais-5g-samyan/07.webp', 'assets/images/projects/ais-5g-samyan/08.webp'],
+    categories: ['Event', 'Interactive', 'System Integration'],
+    summary: 'โชว์เคส AIS 5G ที่สามย่านมิตรทาวน์ โครงสร้างบูทไฟ LED จอแสดงผล และรถควบคุมระยะไกลผ่าน 5G',
+    features: ['5G Showcase', 'LED Structure', 'Remote Control Vehicle']
+  },
+  {
     id: 'iphone-xs',
     title: 'AIS Grand Opening iPhone XS',
     subtitle: 'Retail Launch System',
@@ -1241,6 +1436,19 @@ window.TSTONE_PROJECTS = [
     features: ['Touchscreen Game', 'Interactive Booth', 'Exhibition Media']
   },
   {
+    id: 'ais-bigbang-2018',
+    title: 'AIS The Next Generation @ Big Bang 2018',
+    subtitle: 'Exhibition Media & Robot Display',
+    year: '2018',
+    date: 'กันยายน 2561',
+    location: 'Thailand Mobile Expo / AIS Big Bang',
+    image: 'assets/images/projects/ais-bigbang-2018/cover.webp',
+    gallery: ['assets/images/projects/ais-bigbang-2018/01.webp', 'assets/images/projects/ais-bigbang-2018/02.webp', 'assets/images/projects/ais-bigbang-2018/03.webp', 'assets/images/projects/ais-bigbang-2018/04.webp', 'assets/images/projects/ais-bigbang-2018/05.webp', 'assets/images/projects/ais-bigbang-2018/06.webp', 'assets/images/projects/ais-bigbang-2018/07.webp', 'assets/images/projects/ais-bigbang-2018/08.webp', 'assets/images/projects/ais-bigbang-2018/09.webp', 'assets/images/projects/ais-bigbang-2018/10.webp', 'assets/images/projects/ais-bigbang-2018/11.webp', 'assets/images/projects/ais-bigbang-2018/12.webp'],
+    categories: ['Event', 'Interactive', 'System Integration'],
+    summary: 'บูท AIS The Next Generation ในงาน Big Bang 2018 จอแสดงผล หุ่นยนต์ต้อนรับ และระบบสื่อในบูท',
+    features: ['Display System', 'Robot Display', 'Booth Media']
+  },
+  {
     id: 'scb-klamai',
     title: 'SCB กล้าใหม่...ใฝ่รู้',
     subtitle: 'Youth Program Activity',
@@ -1395,5 +1603,18 @@ window.TSTONE_PROJECTS = [
     categories: ['Interactive', 'Game'],
     summary: 'จอฉายอินเทอร์แอ็กทีฟให้ผู้ชมเรียนรู้ระบบก๊าซ LPG ผ่านการเล่นเกม',
     features: ['Interactive Projection', 'Game', 'Motion Sensor']
+  },
+  {
+    id: 'thailand-mobile-expo',
+    title: 'Thailand Mobile Expo',
+    subtitle: 'AIS Integrated Event System',
+    year: '2013',
+    date: '2556',
+    location: 'Thailand Mobile Expo',
+    image: 'assets/images/projects/thailand-mobile-expo/cover.webp',
+    gallery: ['assets/images/projects/thailand-mobile-expo/01.webp', 'assets/images/projects/thailand-mobile-expo/02.webp', 'assets/images/projects/thailand-mobile-expo/03.webp', 'assets/images/projects/thailand-mobile-expo/04.webp', 'assets/images/projects/thailand-mobile-expo/05.webp', 'assets/images/projects/thailand-mobile-expo/06.webp', 'assets/images/projects/thailand-mobile-expo/07.webp', 'assets/images/projects/thailand-mobile-expo/08.webp'],
+    categories: ['Event', 'System Integration'],
+    summary: 'รวมหลายระบบไว้ในงานเดียว ตั้งแต่เรียกคิว ระบบกันขโมยพร้อมแท่นวางมือถือ ไปจนถึงระบบโชว์เบอร์สวย',
+    features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'ระบบโชว์เบอร์สวย AIS']
   }
 ];
