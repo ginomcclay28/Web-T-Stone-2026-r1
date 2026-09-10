@@ -13,12 +13,16 @@
       <a class="project-card__image" href="project.html?id=${encodeURIComponent(project.id)}" aria-label="ดูรายละเอียด ${esc(project.title)}">
         <img src="${esc(project.image)}" alt="${esc(project.title)}" loading="lazy">
         <span class="project-card__year">${esc(project.year)}</span>
+        ${project.link ? '<span class="project-card__live">● Live</span>' : ''}
       </a>
       <div class="project-card__body">
         <div class="tag-row">${project.categories.slice(0, 3).map(c => `<span class="tag">${esc(c)}</span>`).join('')}</div>
         <h3><a href="project.html?id=${encodeURIComponent(project.id)}">${esc(project.title)}</a></h3>
         <p>${esc(project.summary)}</p>
-        <a class="text-link" href="project.html?id=${encodeURIComponent(project.id)}">ดูโปรเจกต์ <span aria-hidden="true">↗</span></a>
+        <div class="card-links">
+          <a class="text-link" href="project.html?id=${encodeURIComponent(project.id)}">ดูโปรเจกต์ <span aria-hidden="true">↗</span></a>
+          ${project.link ? `<a class="text-link text-link--live" href="${esc(project.link)}" target="_blank" rel="noopener">ลองใช้งานจริง <span aria-hidden="true">↗</span></a>` : ''}
+        </div>
       </div>
     </article>`;
 
@@ -190,6 +194,7 @@
             <p class="eyebrow">${esc(project.subtitle)}</p>
             <h1>${esc(project.title)}</h1>
             <p class="lead">${esc(project.summary)}</p>
+            ${project.link ? `<div class="live-actions"><a class="button button--lime" href="${esc(project.link)}" target="_blank" rel="noopener">ลองใช้งานจริง <span aria-hidden="true">↗</span></a><span class="live-note">เปิดในแท็บใหม่ — ระบบยังใช้งานได้จริง</span></div>` : ''}
           </div>
           <figure class="project-hero__media reveal">
             <img src="${esc(project.image)}" alt="${esc(project.title)}">
