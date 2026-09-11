@@ -13,7 +13,7 @@
       <a class="project-card__image" href="project.html?id=${encodeURIComponent(project.id)}" aria-label="ดูรายละเอียด ${esc(project.title)}">
         <img src="${esc(project.image)}" alt="${esc(project.title)}" loading="lazy">
         <span class="project-card__year">${esc(project.year)}</span>
-        ${project.link ? '<span class="project-card__live">● Live</span>' : ''}
+        ${project.link ? '<span class="project-card__live"><i></i>Live</span>' : ''}
       </a>
       <div class="project-card__body">
         <div class="tag-row">${project.categories.slice(0, 3).map(c => `<span class="tag">${esc(c)}</span>`).join('')}</div>
