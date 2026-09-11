@@ -16,7 +16,7 @@
   const projectCard = (project, large = false) => `
     <article class="project-card ${large ? 'project-card--large' : ''} reveal" data-categories="${esc(project.categories.join('|'))}">
       <a class="project-card__image" href="project.html?id=${encodeURIComponent(project.id)}" aria-label="ดูรายละเอียด ${esc(project.title)}">
-        <img src="${esc(project.image)}" alt="${esc(project.title)}" loading="lazy">
+        <img src="${esc(project.image)}" alt="${esc(project.title)}" loading="lazy"${project.focus ? ` style="object-position:${esc(project.focus)}"` : ''}>
         <span class="project-card__year">${esc(project.year)}</span>
         ${project.link ? '<span class="project-card__live"><i></i>Live</span>' : ''}
       </a>
@@ -202,7 +202,7 @@
             ${project.link ? `<div class="live-actions"><a class="button button--lime" href="${esc(project.link)}" target="_blank" rel="noopener">ลองใช้งานจริง <span aria-hidden="true">↗</span></a><span class="live-note">เปิดในแท็บใหม่ — ระบบยังใช้งานได้จริง</span></div>` : ''}
           </div>
           <figure class="project-hero__media reveal">
-            <img src="${esc(project.image)}" alt="${esc(project.title)}">
+            <img src="${esc(project.image)}" alt="${esc(project.title)}"${project.focus ? ` style="object-position:${esc(project.focus)}"` : ''}>
           </figure>
         </div>
       </section>
