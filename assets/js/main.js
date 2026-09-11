@@ -1,5 +1,10 @@
 (() => {
-  const projects = window.TSTONE_PROJECTS || [];
+  /* เรียงอัตโนมัติ: งานปี 2026 และ Museum ขึ้นก่อน จากนั้นปีล่าสุดก่อน (ลำดับเดิมในไฟล์เป็นตัวตัดสินเมื่อปีเท่ากัน) */
+  const yearOf = (y) => Math.max(0, ...(String(y || '').match(/\d{4}/g) || []).map(Number));
+  const projects = (window.TSTONE_PROJECTS || []).map((p, i) => [p, i]).sort((a, b) => {
+    const top = (p) => (String(p.year).includes('2026') || (p.categories || []).includes('Museum')) ? 0 : 1;
+    return top(a[0]) - top(b[0]) || yearOf(b[0].year) - yearOf(a[0].year) || a[1] - b[1];
+  }).map(([p]) => p);
 
   const esc = (value = '') => String(value)
     .replaceAll('&', '&amp;')
