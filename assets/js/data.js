@@ -1023,7 +1023,7 @@ window.TSTONE_PROJECTS = [
     date: '2569',
     location: 'สำนักเลขาธิการคณะรัฐมนตรี',
     image: 'assets/images/projects/dress-soc-website/cover.webp',
-    gallery: ['assets/images/projects/dress-soc-website/01.webp', 'assets/images/projects/cut5/Website การแต่งกายประดับเครื่องราชอิสริยาภรณ์ไทย 2026/Capture.JPG'],
+    gallery: ['assets/images/projects/dress-soc-website/01.webp', 'assets/images/projects/cut5/Website การแต่งกายประดับเครื่องราชอิสริยาภรณ์ไทย 2026/01.webp'],
     categories: ['Website', 'Interactive'],
     summary: 'เว็บไซต์อินเทอร์แอ็กทีฟสอนการแต่งกายประดับเครื่องราชอิสริยาภรณ์ไทยอย่างถูกต้อง เลือกแบบและดูตัวอย่างได้',
     features: ['Interactive Website', 'Step-by-step Guide', 'Responsive'],
@@ -1871,8 +1871,8 @@ window.TSTONE_PROJECTS = [
     year: '2026',
     date: '2569',
     location: 'มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ',
-    image: 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/Picture32.png',
-    gallery: ['assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/Picture32.png', 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/Picture33.png', 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/Picture34.png', 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/Picture35.png', 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/Picture36.png'],
+    image: 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/01.webp', 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/02.webp', 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/03.webp', 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/04.webp', 'assets/images/projects/cut5/Website KMUTNB Innovation Award 2026/05.webp'],
     categories: ['Website', 'Registration', 'System Integration'],
     summary: 'เว็บไซต์รับสมัครและส่งผลงานเข้าประกวด KMUTNB Innovation Award 2026 พร้อมระบบหลังบ้านสำหรับกรรมการให้คะแนน',
     features: ['Online Registration', 'File Submission', 'Judging Backend', 'Responsive']
@@ -1884,8 +1884,8 @@ window.TSTONE_PROJECTS = [
     year: '2026',
     date: '2569',
     location: 'The Voice Thailand',
-    image: 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/1.jpg',
-    gallery: ['assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/Picture37.png', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/Picture38.png', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/Picture39.png', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/1.jpg', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/686847342_1544135437068330_666226462519036859_n.jpg'],
+    image: 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/01.webp', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/02.webp', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/03.webp', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/04.webp', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Audition Round Reserve/05.webp'],
     categories: ['Website', 'Registration', 'Event'],
     summary: 'เว็บไซต์จองรอบออดิชันสำหรับ The Voice และ The Voice Teen 2026 เลือกวัน-รอบ ยืนยันตัวตน และรับคิวออนไลน์',
     features: ['Online Booking', 'Slot Management', 'Confirmation', 'Responsive']
@@ -1897,8 +1897,8 @@ window.TSTONE_PROJECTS = [
     year: '2026',
     date: '2569',
     location: 'The Voice Thailand',
-    image: 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/1.jpg',
-    gallery: ['assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/Picture40.png', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/Picture41.png', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/Picture42.png', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/Picture43.png', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/1.jpg'],
+    image: 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/01.webp', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/02.webp', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/03.webp', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/04.webp', 'assets/images/projects/cut5/Website The Voice & The Voice Teen 2026 Result Announcement/05.webp'],
     categories: ['Website', 'Event'],
     summary: 'เว็บไซต์ประกาศผลผู้ผ่านการคัดเลือก The Voice และ The Voice Teen 2026 ค้นหาผลด้วยหมายเลขผู้สมัคร',
     features: ['Result Lookup', 'High-traffic Ready', 'Responsive']
@@ -1910,8 +1910,8 @@ window.TSTONE_PROJECTS = [
     year: '2024',
     date: '2567',
     location: 'The Voice Thailand',
-    image: 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481911760_1213509086797635_8300933175059747429_n.jpg',
-    gallery: ['assets/images/projects/cut5/Website The Voice 2024 Online Audition/Picture6.jpg', 'assets/images/projects/cut5/Website The Voice 2024 Online Audition/Picture7.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/Picture79.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/Picture80.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481152504_1213513053463905_6008359204848099681_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481251898_1213513416797202_4704749515595289188_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481496649_1213512983463912_3575048682139377_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481663084_1213513010130576_4701600911882311278_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481673482_1213504810131396_7034116723632586055_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481769935_1213513180130559_2244962974499773193_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481770401_1213513056797238_9055317886923690456_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481821178_1213513036797240_1021264570257920341_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481822916_1213510300130847_923088514102674614_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481828773_1213513170130560_7086919134276232345_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481911760_1213509086797635_8300933175059747429_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/481943290_1213513046797239_3459245472983499736_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/482061268_1213513166797227_697111335928639024_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/482191859_1213601776788366_4697336251859660288_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/482191870_1213513193463891_848397557360883103_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/482196896_1213513240130553_6846688585879939576_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/482218912_1213605340121343_8134688534480076620_n.jpg', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/483098875_1213513143463896_1818356986369691971_n.jpg'],
+    image: 'assets/images/projects/cut5/Website The Voice Online Audition 2024/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website The Voice 2024 Online Audition/01.webp', 'assets/images/projects/cut5/Website The Voice 2024 Online Audition/02.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/01.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/02.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/03.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/04.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/05.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/06.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/07.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/08.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/09.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/10.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/11.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/12.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/13.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/14.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/15.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/16.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/17.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/18.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/19.webp', 'assets/images/projects/cut5/Website The Voice Online Audition 2024/20.webp'],
     categories: ['Website', 'Registration', 'Event'],
     summary: 'เว็บไซต์ออดิชันออนไลน์ The Voice 2024 สมัคร อัปโหลดคลิปร้องเพลง และติดตามผลได้ในที่เดียว พร้อมภาพจากรอบออดิชันจริง',
     features: ['Online Audition', 'Video Upload', 'Applicant Tracking', 'Responsive']
@@ -1923,8 +1923,8 @@ window.TSTONE_PROJECTS = [
     year: '2024',
     date: '2567',
     location: 'ตลาดหลักทรัพย์แห่งประเทศไทย',
-    image: 'assets/images/projects/cut5/Website Investory Arcade Game Dashboard 2024/Picture47.png',
-    gallery: ['assets/images/projects/cut5/Website Investory Arcade Game Dashboard 2024/Picture47.png', 'assets/images/projects/cut5/Website Investory Arcade Game Dashboard 2024/Picture48.png'],
+    image: 'assets/images/projects/cut5/Website Investory Arcade Game Dashboard 2024/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website Investory Arcade Game Dashboard 2024/01.webp', 'assets/images/projects/cut5/Website Investory Arcade Game Dashboard 2024/02.webp'],
     categories: ['Website', 'System Integration'],
     summary: 'แดชบอร์ดสรุปสถิติการเล่นเกมของ INVESTORY Arcade Center ดูจำนวนผู้เล่น คะแนน และความนิยมของแต่ละเกมแบบเรียลไทม์',
     features: ['Realtime Dashboard', 'Game Analytics', 'Admin Backend']
@@ -1936,8 +1936,8 @@ window.TSTONE_PROJECTS = [
     year: '2022',
     date: '2565',
     location: 'BMW Thailand',
-    image: 'assets/images/projects/cut5/Website BMW The 7 Experience Registration 2022/Picture9.png',
-    gallery: ['assets/images/projects/cut5/Website BMW The 7 Experience Registration 2022/Picture9.png'],
+    image: 'assets/images/projects/cut5/Website BMW The 7 Experience Registration 2022/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website BMW The 7 Experience Registration 2022/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนเข้าร่วมงาน BMW The 7 Experience พร้อมยืนยันสิทธิ์และ QR สำหรับเช็กอินหน้างาน',
     features: ['Online Registration', 'QR Check-in', 'Responsive']
@@ -1949,8 +1949,8 @@ window.TSTONE_PROJECTS = [
     year: '2021',
     date: '2564',
     location: 'นิทรรศการคิดถึงสมเด็จย่า',
-    image: 'assets/images/projects/cut5/Website Kidtunsomdetya 2021/Picture1.png',
-    gallery: ['assets/images/projects/cut5/Website Kidtunsomdetya 2021/Picture1.png', 'assets/images/projects/cut5/Website Kidtunsomdetya 2021/Picture2.png'],
+    image: 'assets/images/projects/cut5/Website Kidtunsomdetya 2021/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website Kidtunsomdetya 2021/01.webp', 'assets/images/projects/cut5/Website Kidtunsomdetya 2021/02.webp'],
     categories: ['Website', 'Museum'],
     summary: 'เว็บไซต์นิทรรศการคิดถึงสมเด็จย่า รวมเนื้อหานิทรรศการ ข้อมูลการเข้าชม และทางเข้าสู่ Virtual Tour',
     features: ['Exhibition Website', 'Content Management', 'Responsive']
@@ -1962,8 +1962,8 @@ window.TSTONE_PROJECTS = [
     year: '2021',
     date: '2564',
     location: 'หอจดหมายเหตุแห่งชาติ',
-    image: 'assets/images/projects/cut5/Website หอจดหมายเหตุแห่งชาติ 2021/Picture5.png',
-    gallery: ['assets/images/projects/cut5/Website หอจดหมายเหตุแห่งชาติ 2021/Picture5.png'],
+    image: 'assets/images/projects/cut5/Website หอจดหมายเหตุแห่งชาติ 2021/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website หอจดหมายเหตุแห่งชาติ 2021/01.webp'],
     categories: ['Website', 'Museum'],
     summary: 'เว็บไซต์นิทรรศการหอจดหมายเหตุแห่งชาติ หน้าหลักสำหรับเข้าชมเนื้อหาและ Virtual Tour ของนิทรรศการ',
     features: ['Exhibition Website', 'Virtual Tour Entry', 'Responsive']
@@ -1975,8 +1975,8 @@ window.TSTONE_PROJECTS = [
     year: '2021',
     date: 'กุมภาพันธ์ 2564',
     location: 'กองทัพเรือ',
-    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 FEB2021/Picture17.png',
-    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 FEB2021/Picture17.png'],
+    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 FEB2021/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 FEB2021/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์รับสมัครนักกีฬาไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 สนามกุมภาพันธ์ 2564 พร้อมระบบชำระเงินและตรวจสอบสถานะ',
     features: ['Race Registration', 'Payment', 'Status Lookup']
@@ -1988,8 +1988,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: 'ธันวาคม 2563',
     location: 'กองทัพเรือ',
-    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 DEC2020/Picture15.png',
-    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 DEC2020/Picture15.png'],
+    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 DEC2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 DEC2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์รับสมัครนักกีฬาไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 3 สนามธันวาคม 2563',
     features: ['Race Registration', 'Payment', 'Status Lookup']
@@ -2001,8 +2001,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: 'สิงหาคม 2563',
     location: 'กองทัพเรือ',
-    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 AUG2020/Picture13.png',
-    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 AUG2020/Picture13.png'],
+    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 AUG2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 AUG2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์รับสมัครนักกีฬาไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 สนามสิงหาคม 2563',
     features: ['Race Registration', 'Payment', 'Status Lookup']
@@ -2014,8 +2014,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: 'มีนาคม 2563',
     location: 'กองทัพเรือ',
-    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 MAR2020/Picture14.png',
-    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 MAR2020/Picture14.png'],
+    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 MAR2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 MAR2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์รับสมัครนักกีฬาไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 สนามมีนาคม 2563',
     features: ['Race Registration', 'Payment', 'Status Lookup']
@@ -2027,8 +2027,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: 'มกราคม 2563',
     location: 'กองทัพเรือ',
-    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 JAN2020/Picture16.png',
-    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 JAN2020/Picture16.png'],
+    image: 'assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 JAN2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website ไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 JAN2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์รับสมัครนักกีฬาไตรกีฬานาวี เฉลิมพระเกียรติ ซีซัน 2 สนามมกราคม 2563',
     features: ['Race Registration', 'Payment', 'Status Lookup']
@@ -2040,8 +2040,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: '2563',
     location: 'โขงนที ไตรกีฬา',
-    image: 'assets/images/projects/cut5/Website โขงนที ไตรกีฬา 2020/Picture11.png',
-    gallery: ['assets/images/projects/cut5/Website โขงนที ไตรกีฬา 2020/Picture11.png'],
+    image: 'assets/images/projects/cut5/Website โขงนที ไตรกีฬา 2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website โขงนที ไตรกีฬา 2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์รับสมัครและให้ข้อมูลการแข่งขันโขงนที ไตรกีฬา 2020 พร้อมระบบตรวจสอบสถานะผู้สมัคร',
     features: ['Race Registration', 'Payment', 'Status Lookup']
@@ -2053,8 +2053,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: '2563',
     location: 'Challenge Series',
-    image: 'assets/images/projects/cut5/Website Challenge Series 2020/Picture19.png',
-    gallery: ['assets/images/projects/cut5/Website Challenge Series 2020/Picture19.png'],
+    image: 'assets/images/projects/cut5/Website Challenge Series 2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website Challenge Series 2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์รับสมัครรายการแข่งขัน Challenge Series 2020 รองรับหลายสนามในเว็บเดียว',
     features: ['Race Registration', 'Multi-event', 'Responsive']
@@ -2066,8 +2066,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: '2563',
     location: 'dEX SPARK',
-    image: 'assets/images/projects/cut5/Website dEX SPARK Registration 2020/Picture27.png',
-    gallery: ['assets/images/projects/cut5/Website dEX SPARK Registration 2020/Picture27.png'],
+    image: 'assets/images/projects/cut5/Website dEX SPARK Registration 2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website dEX SPARK Registration 2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนเข้าร่วมงาน dEX SPARK พร้อมยืนยันสิทธิ์ทางอีเมล',
     features: ['Online Registration', 'Email Confirmation', 'Responsive']
@@ -2079,8 +2079,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: '2563',
     location: 'Tesco Lotus',
-    image: 'assets/images/projects/cut5/Website TESCO Lotus Supplier Conference 2020/Picture28.png',
-    gallery: ['assets/images/projects/cut5/Website TESCO Lotus Supplier Conference 2020/Picture28.png'],
+    image: 'assets/images/projects/cut5/Website TESCO Lotus Supplier Conference 2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website TESCO Lotus Supplier Conference 2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนคู่ค้าเข้าร่วม Tesco Lotus Supplier Conference 2020',
     features: ['Online Registration', 'Attendee Management', 'Responsive']
@@ -2092,8 +2092,8 @@ window.TSTONE_PROJECTS = [
     year: '2020',
     date: '2563',
     location: 'ปตท.',
-    image: 'assets/images/projects/cut5/Website PTT MakeMore Transforn Conference 2020/Picture29.png',
-    gallery: ['assets/images/projects/cut5/Website PTT MakeMore Transforn Conference 2020/Picture29.png'],
+    image: 'assets/images/projects/cut5/Website PTT MakeMore Transforn Conference 2020/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website PTT MakeMore Transforn Conference 2020/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนเข้าร่วมงาน PTT MakeMore Transform Conference 2020',
     features: ['Online Registration', 'Attendee Management', 'Responsive']
@@ -2105,8 +2105,8 @@ window.TSTONE_PROJECTS = [
     year: '2019',
     date: '2562',
     location: 'ณ สัทธา อุทยานไทย ราชบุรี',
-    image: 'assets/images/projects/cut5/Website Nasatta 2019/Picture3.png',
-    gallery: ['assets/images/projects/cut5/Website Nasatta 2019/Picture3.png', 'assets/images/projects/cut5/Website Nasatta 2019/Picture4.png'],
+    image: 'assets/images/projects/cut5/Website Nasatta 2019/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website Nasatta 2019/01.webp', 'assets/images/projects/cut5/Website Nasatta 2019/02.webp'],
     categories: ['Website', 'Museum'],
     summary: 'เว็บไซต์หลักของ ณ สัทธา อุทยานไทย แนะนำจุดท่องเที่ยว กิจกรรม และข้อมูลการเข้าชม',
     features: ['Corporate Website', 'Content Management', 'Responsive']
@@ -2118,8 +2118,8 @@ window.TSTONE_PROJECTS = [
     year: '2019',
     date: '2562',
     location: 'Toyota Thailand',
-    image: 'assets/images/projects/cut5/Website TOYOTA mobility of Happiness Registration 2019/Picture8.png',
-    gallery: ['assets/images/projects/cut5/Website TOYOTA mobility of Happiness Registration 2019/Picture8.png'],
+    image: 'assets/images/projects/cut5/Website TOYOTA mobility of Happiness Registration 2019/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website TOYOTA mobility of Happiness Registration 2019/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนเข้าร่วมกิจกรรม TOYOTA Mobility of Happiness',
     features: ['Online Registration', 'Confirmation', 'Responsive']
@@ -2131,8 +2131,8 @@ window.TSTONE_PROJECTS = [
     year: '2019',
     date: 'สิงหาคม 2562',
     location: 'ดัชมิลล์',
-    image: 'assets/images/projects/cut5/Website ดัชมิลล์ Passion Partner RUN AUG2019/Picture18.png',
-    gallery: ['assets/images/projects/cut5/Website ดัชมิลล์ Passion Partner RUN AUG2019/Picture18.png'],
+    image: 'assets/images/projects/cut5/Website ดัชมิลล์ Passion Partner RUN AUG2019/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website ดัชมิลล์ Passion Partner RUN AUG2019/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์รับสมัครงานวิ่ง ดัชมิลล์ Passion Partner RUN พร้อมระบบตรวจสอบสถานะผู้สมัคร',
     features: ['Race Registration', 'Status Lookup', 'Responsive']
@@ -2144,8 +2144,8 @@ window.TSTONE_PROJECTS = [
     year: '2019',
     date: '2562',
     location: 'สวนกุหลาบวิทยาลัย',
-    image: 'assets/images/projects/cut5/Website งานเลี้ยงรุ่น สวนกุหลาบ 2019/Picture25.png',
-    gallery: ['assets/images/projects/cut5/Website งานเลี้ยงรุ่น สวนกุหลาบ 2019/Picture25.png'],
+    image: 'assets/images/projects/cut5/Website งานเลี้ยงรุ่น สวนกุหลาบ 2019/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website งานเลี้ยงรุ่น สวนกุหลาบ 2019/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนและจองโต๊ะสำหรับงานเลี้ยงรุ่นสวนกุหลาบวิทยาลัย',
     features: ['Online Registration', 'Table Booking', 'Responsive']
@@ -2157,8 +2157,8 @@ window.TSTONE_PROJECTS = [
     year: '2019',
     date: '2562',
     location: 'AIS',
-    image: 'assets/images/projects/cut5/Website AIS Airline Party 2019/Picture26.png',
-    gallery: ['assets/images/projects/cut5/Website AIS Airline Party 2019/Picture26.png'],
+    image: 'assets/images/projects/cut5/Website AIS Airline Party 2019/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website AIS Airline Party 2019/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนเข้าร่วมงาน AIS Airline Party ในธีมสายการบิน พร้อมบอร์ดดิ้งพาสสำหรับเช็กอิน',
     features: ['Online Registration', 'Boarding Pass', 'Responsive']
@@ -2170,8 +2170,8 @@ window.TSTONE_PROJECTS = [
     year: '2019',
     date: '2562',
     location: 'PTT Global Chemical',
-    image: 'assets/images/projects/cut5/Website GC Innovation Forum 2019/Picture30.png',
-    gallery: ['assets/images/projects/cut5/Website GC Innovation Forum 2019/Picture30.png', 'assets/images/projects/cut5/Website GC Innovation Forum 2019/Picture31.png'],
+    image: 'assets/images/projects/cut5/Website GC Innovation Forum 2019/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website GC Innovation Forum 2019/01.webp', 'assets/images/projects/cut5/Website GC Innovation Forum 2019/02.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนเข้าร่วม GC Innovation Forum 2019 พร้อมข้อมูลกำหนดการและวิทยากร',
     features: ['Online Registration', 'Agenda', 'Responsive']
@@ -2183,8 +2183,8 @@ window.TSTONE_PROJECTS = [
     year: '2018',
     date: '2561',
     location: 'KS Glow Party',
-    image: 'assets/images/projects/cut5/Website KS Glow Party Registration 2018/Picture10.png',
-    gallery: ['assets/images/projects/cut5/Website KS Glow Party Registration 2018/Picture10.png'],
+    image: 'assets/images/projects/cut5/Website KS Glow Party Registration 2018/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website KS Glow Party Registration 2018/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนเข้าร่วมงาน KS Glow Party 2018',
     features: ['Online Registration', 'Confirmation', 'Responsive']
@@ -2196,8 +2196,8 @@ window.TSTONE_PROJECTS = [
     year: '2018',
     date: '2561',
     location: 'GSM',
-    image: 'assets/images/projects/cut5/Website GSM Registration 2018/Picture20.png',
-    gallery: ['assets/images/projects/cut5/Website GSM Registration 2018/Picture20.png', 'assets/images/projects/cut5/Website GSM Registration 2018/Picture21.png'],
+    image: 'assets/images/projects/cut5/Website GSM Registration 2018/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website GSM Registration 2018/01.webp', 'assets/images/projects/cut5/Website GSM Registration 2018/02.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนเข้าร่วมงาน GSM 2018 พร้อมระบบจัดการรายชื่อผู้เข้าร่วม',
     features: ['Online Registration', 'Attendee Management', 'Responsive']
@@ -2209,8 +2209,8 @@ window.TSTONE_PROJECTS = [
     year: '2018',
     date: '2561',
     location: 'ธนาคารกสิกรไทย',
-    image: 'assets/images/projects/cut5/Website KBank Food Solution 2018/Picture22.png',
-    gallery: ['assets/images/projects/cut5/Website KBank Food Solution 2018/Picture22.png'],
+    image: 'assets/images/projects/cut5/Website KBank Food Solution 2018/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website KBank Food Solution 2018/01.webp'],
     categories: ['Website', 'Registration'],
     summary: 'เว็บไซต์ลงทะเบียนและให้ข้อมูลงาน KBank Food Solution 2018',
     features: ['Online Registration', 'Event Info', 'Responsive']
@@ -2222,8 +2222,8 @@ window.TSTONE_PROJECTS = [
     year: '2018',
     date: '2561',
     location: 'Unilever Food Solutions',
-    image: 'assets/images/projects/cut5/Website Survey Unilever Food Solution 2018/Picture24.png',
-    gallery: ['assets/images/projects/cut5/Website Survey Unilever Food Solution 2018/Picture24.png'],
+    image: 'assets/images/projects/cut5/Website Survey Unilever Food Solution 2018/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website Survey Unilever Food Solution 2018/01.webp'],
     categories: ['Website', 'System Integration'],
     summary: 'เว็บไซต์แบบสำรวจออนไลน์สำหรับ Unilever Food Solutions พร้อมระบบสรุปผลหลังบ้าน',
     features: ['Online Survey', 'Result Dashboard', 'Responsive']
@@ -2235,10 +2235,253 @@ window.TSTONE_PROJECTS = [
     year: '2017',
     date: '2560',
     location: 'AIS x AXA',
-    image: 'assets/images/projects/cut5/Website AIS x AXA Online Record 2017/Picture23.png',
-    gallery: ['assets/images/projects/cut5/Website AIS x AXA Online Record 2017/Picture23.png'],
+    image: 'assets/images/projects/cut5/Website AIS x AXA Online Record 2017/cover.webp',
+    gallery: ['assets/images/projects/cut5/Website AIS x AXA Online Record 2017/01.webp'],
     categories: ['Website', 'System Integration'],
     summary: 'เว็บไซต์บันทึกข้อมูลออนไลน์สำหรับแคมเปญ AIS x AXA พร้อมระบบหลังบ้านสำหรับดูข้อมูลรวม',
     features: ['Online Form', 'Data Backend', 'Responsive']
   }
 ];
+
+/* ============================================================
+   ชุด Cut6 — งานย้อนหลังปี 2011-2025
+   รูปอยู่ที่ assets/images/projects/cut6/<ชื่อโฟลเดอร์>/  (cover.webp + 01..12.webp)
+   ถ้าโฟลเดอร์ไหนมีรูปน้อยกว่า 12 รูปที่เกินจะถูกซ่อนให้อัตโนมัติ
+   ============================================================ */
+(function () {
+  var BASE = 'assets/images/projects/cut6/';
+  function C(f) { return BASE + f + '/cover.webp'; }
+  function G(f, n) {
+    var a = [];
+    for (var i = 1; i <= (n || 12); i++) a.push(BASE + f + '/' + (i < 10 ? '0' + i : i) + '.webp');
+    return a;
+  }
+  /* เพิ่มรูปเข้าแกลเลอรีของงานที่มีอยู่แล้ว */
+  function addTo(id, f, n) {
+    for (var i = 0; i < window.TSTONE_PROJECTS.length; i++) {
+      if (window.TSTONE_PROJECTS[i].id === id) {
+        window.TSTONE_PROJECTS[i].gallery = window.TSTONE_PROJECTS[i].gallery.concat(G(f, n));
+        return;
+      }
+    }
+  }
+  function P(o) { o.image = C(o.f); o.gallery = G(o.f); delete o.f; return o; }
+
+  /* ---- รูปเพิ่มของงานที่มีอยู่แล้ว ---- */
+  addTo('egat-smart-learning', 'EGAT Smart Learning Green Room 2023');
+  addTo('mitsubishi-mky',      'Mitsubishi MKY Museum');
+  addTo('tanland-2024',        'Tanland 2024');
+  addTo('yala-museum',         'พิพิธภัณฑ์เมืองยะลา');
+  addTo('egat-phabong',        'ศูนย์การเรียนรู้ กฟผ. ผาบ่อง');
+  addTo('egat-elextropia',     'ศูนย์การเรียนรู้ กฟผ. ลำตะคอง Elextropia 2022');
+  addTo('egat-lamtakong',      'ศูนย์การเรียนรู้ กฟผ. ลำตะคอง ชั้น 1และ2');
+  addTo('ananta-samakhom',     'พระที่นั่งอนันตสมาคม');
+  addTo('abbott-live-2021',    'ABBOTT Online Conference 2021');
+
+  /* ---- งานใหม่ ---- */
+  window.TSTONE_PROJECTS = window.TSTONE_PROJECTS.concat([
+    P({ id: 'nanthasippakarn', f: 'ศูนย์การเรียนรู้นันทสิปปาคาร น่าน 2025',
+        title: 'ศูนย์การเรียนรู้นันทสิปปาคาร น่าน', subtitle: 'Learning Centre — Interactive Exhibition',
+        year: '2025', date: '2568', location: 'จังหวัดน่าน', categories: ['Museum', 'Interactive'],
+        summary: 'ศูนย์การเรียนรู้นันทสิปปาคาร จังหวัดน่าน สื่อจัดแสดงอินเทอร์แอ็กทีฟ จอสัมผัส และงานฉายภาพเล่าเรื่องศิลปวัฒนธรรมเมืองน่าน',
+        features: ['Interactive Exhibition', 'Touchscreen', 'Projection', 'System Integration'] }),
+
+    P({ id: 'science-fair-2021-xg', f: 'มหกรรมวิทยาศาสตร์ 2021 - Experience the Limitless Life XG',
+        title: 'มหกรรมวิทยาศาสตร์ 2021 — Experience the Limitless Life', subtitle: 'AIS XG Interactive Zone',
+        year: '2021', date: '2564', location: 'มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ', categories: ['Event', 'Interactive'],
+        summary: 'โซนนิทรรศการ Experience the Limitless Life ของ AIS ในมหกรรมวิทยาศาสตร์ 2564 สื่ออินเทอร์แอ็กทีฟเล่าเรื่องโลกดิจิทัลไร้ขีดจำกัด',
+        features: ['Interactive Zone', 'Projection', 'Touchscreen'] }),
+
+    P({ id: 'science-fair-2020-mars', f: 'มหกรรมวิทยาศาสตร์ 2020 - A Day on Mar',
+        title: 'มหกรรมวิทยาศาสตร์ 2020 — A Day on Mars', subtitle: 'Immersive Exhibition Zone',
+        year: '2020', date: '2563', location: 'มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ', categories: ['Event', 'Interactive'],
+        summary: 'นิทรรศการ A Day on Mars จำลองบรรยากาศดาวอังคาร พร้อมสื่ออินเทอร์แอ็กทีฟและงานฉายภาพรอบตัว',
+        features: ['Immersive Room', 'Projection', 'Interactive Display'] }),
+
+    P({ id: 'science-fair-2019-moon', f: 'มหกรรมวิทยาศาสตร์ 2019 - บูท Moon Landing',
+        title: 'มหกรรมวิทยาศาสตร์ 2019 — Moon Landing', subtitle: 'Interactive Exhibition Booth',
+        year: '2019', date: '2562', location: 'มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ', categories: ['Event', 'Interactive'],
+        summary: 'บูท Moon Landing ครบรอบ 50 ปีมนุษย์เหยียบดวงจันทร์ สื่อจัดแสดงและกิจกรรมอินเทอร์แอ็กทีฟ',
+        features: ['Interactive Booth', 'Projection', 'Exhibition Media'] }),
+
+    P({ id: 'science-fair-2019-periodic', f: 'มหกรรมวิทยาศาสตร์ 2019 - บูท ตารางธาตุ',
+        title: 'มหกรรมวิทยาศาสตร์ 2019 — บูทตารางธาตุ', subtitle: 'Periodic Table Interactive Booth',
+        year: '2019', date: '2562', location: 'มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ', categories: ['Event', 'Interactive', 'Game'],
+        summary: 'บูทตารางธาตุครบรอบ 150 ปี จอสัมผัสและเกมเรียนรู้ธาตุต่าง ๆ พร้อมสื่อจัดแสดงขนาดใหญ่',
+        features: ['Interactive Booth', 'Learning Game', 'Touchscreen'] }),
+
+    P({ id: 'science-fair-2019-press', f: 'มหกรรมวิทยาศาสตร์ 2019 - แถลงข่าว',
+        title: 'มหกรรมวิทยาศาสตร์ 2019 — งานแถลงข่าว', subtitle: 'Press Conference Media',
+        year: '2019', date: '2562', location: 'มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ', categories: ['Event', 'System Integration'],
+        summary: 'ระบบภาพและสื่อบนเวทีงานแถลงข่าวมหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ 2562',
+        features: ['Stage Media', 'Display System', 'Live Event'] }),
+
+    P({ id: 'aun-ai-rak-boonrawd', f: 'อุ่นไอรัก บูทบุญรอด 2019',
+        title: 'อุ่นไอรัก — บูทบุญรอด', subtitle: 'Interactive Exhibition Booth',
+        year: '2019', date: '2562', location: 'งานอุ่นไอรัก คลายความหนาว', categories: ['Event', 'Interactive'],
+        summary: 'บูทบุญรอดในงานอุ่นไอรัก คลายความหนาว สื่อจัดแสดงและกิจกรรมอินเทอร์แอ็กทีฟในบรรยากาศย้อนยุค',
+        features: ['Interactive Booth', 'Exhibition Media', 'Event Support'] }),
+
+    P({ id: 'mazda3-transparent-box', f: 'Mazda 3 Transparent Box 2019',
+        title: 'Mazda 3 Transparent Box', subtitle: 'Transparent Display Showcase',
+        year: '2019', date: '2562', location: 'Mazda Thailand', categories: ['Event', 'Interactive'],
+        summary: 'ตู้จัดแสดงจอโปร่งใสสำหรับเปิดตัว Mazda 3 ผู้ชมเห็นสินค้าจริงผ่านจอที่เล่นภาพกราฟิกทับได้',
+        features: ['Transparent Display', 'Product Showcase', 'Interactive'] }),
+
+    P({ id: 'the-voice-kid', f: 'The Voice Kid season 1-7',
+        title: 'The Voice Kids ซีซัน 1-7', subtitle: 'Audition & Voting System',
+        year: '2013-2019', date: '2556 – 2562', location: 'The Voice Kids Thailand', categories: ['Event', 'System Integration', 'Registration'],
+        summary: 'ระบบรับสมัคร คัดเลือก และจัดการผู้เข้าแข่งขันรายการ The Voice Kids Thailand ตั้งแต่ซีซัน 1 ถึงซีซัน 7',
+        features: ['Audition Registration', 'Contestant Management', 'Live Event Support'] }),
+
+    P({ id: 'pttgc-pattaya-2017', f: 'PTTGC @Pattaya 2017',
+        title: 'PTTGC @ พัทยา', subtitle: 'Interactive Exhibition',
+        year: '2017', date: '2560', location: 'พัทยา', categories: ['Event', 'Interactive'],
+        summary: 'สื่ออินเทอร์แอ็กทีฟและจอจัดแสดงในงานของ PTTGC ที่พัทยา',
+        features: ['Interactive Display', 'Exhibition Media', 'Event Support'] }),
+
+    P({ id: 'vibhavadi-40', f: '40 ปี วิภาวดีรังสิต 2017',
+        title: '40 ปี ถนนวิภาวดีรังสิต', subtitle: 'Anniversary Exhibition',
+        year: '2017', date: '2560', location: 'กรุงเทพฯ', categories: ['Event', 'Interactive'],
+        summary: 'นิทรรศการครบรอบ 40 ปีถนนวิภาวดีรังสิต สื่อจัดแสดงเล่าประวัติและพัฒนาการของเส้นทาง',
+        features: ['Exhibition Media', 'Interactive Display', 'Projection'] }),
+
+    P({ id: 'egco-group-conference-2014', f: 'EGCO Group Conference 2014',
+        title: 'EGCO Group Conference', subtitle: 'Conference Registration & Media',
+        year: '2014', date: '2557', location: 'บมจ. ผลิตไฟฟ้า (EGCO Group)', categories: ['Event', 'Registration', 'System Integration'],
+        summary: 'ระบบลงทะเบียนและระบบภาพสำหรับงานประชุมประจำปีของกลุ่ม EGCO',
+        features: ['Registration', 'Display System', 'Event Support'] }),
+
+    P({ id: 'egco-roadshow-2014', f: 'EGCO Roadshow 2014',
+        title: 'EGCO Roadshow', subtitle: 'Roadshow Booth & Interactive',
+        year: '2014', date: '2557', location: 'EGCO Group', categories: ['Event', 'Interactive'],
+        summary: 'บูทโรดโชว์ของ EGCO พร้อมสื่ออินเทอร์แอ็กทีฟและกิจกรรมให้ความรู้เรื่องพลังงาน',
+        features: ['Roadshow Booth', 'Interactive Display', 'Event Support'] }),
+
+    P({ id: 'kbank-roadshow-voucher-2014', f: 'KBank Roadshow Voucher 2014',
+        title: 'KBank Roadshow Voucher', subtitle: 'Voucher & Redemption System',
+        year: '2014', date: '2557', location: 'ธนาคารกสิกรไทย', categories: ['Event', 'System Integration'],
+        summary: 'ระบบออกและแลกคูปองสำหรับงานโรดโชว์ธนาคารกสิกรไทย พร้อมรายงานยอดแลกแบบเรียลไทม์',
+        features: ['Voucher System', 'Redemption', 'Realtime Report'] }),
+
+    P({ id: 'iptex-2014', f: 'IPTEX 2014',
+        title: 'IPTEX 2014', subtitle: 'Exhibition Interactive',
+        year: '2014', date: '2557', location: 'IPTEX', categories: ['Event', 'Interactive'],
+        summary: 'สื่ออินเทอร์แอ็กทีฟและจอจัดแสดงในงาน IPTEX 2014',
+        features: ['Interactive Display', 'Exhibition Media'] }),
+
+    P({ id: 'omo-bacteria-scanner', f: 'OMO Bacteria Scanner 2014',
+        title: 'OMO Bacteria Scanner', subtitle: 'Interactive Product Demo',
+        year: '2014', date: '2557', location: 'OMO / Unilever', categories: ['Event', 'Interactive'],
+        summary: 'เครื่องสแกนจำลองให้เห็นแบคทีเรียบนเสื้อผ้า สื่อสาธิตสินค้าแบบอินเทอร์แอ็กทีฟของ OMO',
+        features: ['Interactive Demo', 'Product Activation', 'Custom Hardware'] }),
+
+    P({ id: 'ok-award-2014', f: 'OK award 2014',
+        title: 'OK Award 2014', subtitle: 'Award Show Media System',
+        year: '2014', date: '2557', location: 'OK Award', categories: ['Event', 'System Integration'],
+        summary: 'ระบบภาพและสื่อบนเวทีงานประกาศรางวัล OK Award 2014',
+        features: ['Stage Media', 'Display System', 'Live Event'] }),
+
+    P({ id: 'the-winner-is', f: 'The Winner Is',
+        title: 'The Winner Is', subtitle: 'TV Show Voting System',
+        year: '2014', date: '2557', location: 'รายการ The Winner Is Thailand', categories: ['Event', 'System Integration'],
+        summary: 'ระบบโหวตและแสดงผลคะแนนสำหรับรายการ The Winner Is พร้อมจอแสดงผลบนเวที',
+        features: ['Live Voting', 'Score Display', 'Broadcast Support'] }),
+
+    P({ id: 'sss-gender-2014', f: 'สสส ชายหญิง สิ่งสมมติ 2014',
+        title: 'สสส. ชายหญิง สิ่งสมมติ', subtitle: 'Interactive Exhibition',
+        year: '2014', date: '2557', location: 'สำนักงานกองทุนสนับสนุนการสร้างเสริมสุขภาพ (สสส.)', categories: ['Event', 'Interactive'],
+        summary: 'นิทรรศการ "ชายหญิง สิ่งสมมติ" ของ สสส. สื่ออินเทอร์แอ็กทีฟชวนตั้งคำถามเรื่องบทบาททางเพศ',
+        features: ['Interactive Exhibition', 'Touchscreen', 'Projection'] }),
+
+    P({ id: 'sanam-luang-2014', f: 'วันเฉลิม สนามหลวง 2014',
+        title: 'งานวันเฉลิมพระชนมพรรษา สนามหลวง', subtitle: 'Outdoor Event Media',
+        year: '2014', date: '2557', location: 'ท้องสนามหลวง', categories: ['Event', 'System Integration'],
+        summary: 'ระบบภาพและสื่อจัดแสดงกลางแจ้งในงานวันเฉลิมพระชนมพรรษา ณ ท้องสนามหลวง',
+        features: ['Outdoor Display', 'Projection', 'Event Support'] }),
+
+    P({ id: 'enfa-brain-expo-2014', f: 'ENFA Brain Expo SEP2014',
+        title: 'Enfa Brain Expo กันยายน 2014', subtitle: 'Interactive Exhibition Booth',
+        year: '2014', date: 'กันยายน 2557', location: 'Enfa Brain Expo', categories: ['Event', 'Interactive'],
+        summary: 'บูทนิทรรศการ Enfa Brain Expo รอบเดือนกันยายน 2557 พร้อมกิจกรรมอินเทอร์แอ็กทีฟสำหรับเด็กและผู้ปกครอง',
+        features: ['Interactive Booth', 'Kids Activity', 'Exhibition Media'] }),
+
+    P({ id: 'scb-challenge-2014', f: 'SCB Challenge Comptition 2014',
+        title: 'SCB Challenge Competition 2014', subtitle: 'Competition Event System',
+        year: '2014', date: '2557', location: 'ธนาคารไทยพาณิชย์', categories: ['Event', 'System Integration'],
+        summary: 'ระบบจัดการการแข่งขันและระบบภาพสำหรับงาน SCB Challenge Competition 2014',
+        features: ['Competition System', 'Score Display', 'Event Support'] }),
+
+    P({ id: 'scb-challenge-2013', f: 'SCB Challenge Comptition 2013',
+        title: 'SCB Challenge Competition 2013', subtitle: 'Competition Event System',
+        year: '2013', date: '2556', location: 'ธนาคารไทยพาณิชย์', categories: ['Event', 'System Integration'],
+        summary: 'ระบบจัดการการแข่งขันและระบบภาพสำหรับงาน SCB Challenge Competition 2013',
+        features: ['Competition System', 'Score Display', 'Event Support'] }),
+
+    P({ id: 'wisdom-theater-seat', f: 'The Wisdom Theater seat reserve 2013',
+        title: 'THE WISDOM Theater — ระบบจองที่นั่ง', subtitle: 'Seat Reservation System',
+        year: '2013-2014', date: '2556 – 2557', location: 'ธนาคารกสิกรไทย (THE WISDOM)', categories: ['Event', 'Registration', 'System Integration'],
+        summary: 'ระบบจองที่นั่งโรงภาพยนตร์สำหรับลูกค้า THE WISDOM เลือกที่นั่งบนผังจริงแล้วออกบัตรเข้าชม',
+        features: ['Seat Booking', 'Ticketing', 'Member System'] }),
+
+    P({ id: 'stella-artois-2013', f: 'STELLA Artois Asia Competition 2013',
+        title: 'Stella Artois Asia Competition', subtitle: 'Competition Event System',
+        year: '2013', date: '2556', location: 'Stella Artois', categories: ['Event', 'System Integration'],
+        summary: 'ระบบจัดการและระบบภาพสำหรับการแข่งขัน Stella Artois ระดับเอเชีย',
+        features: ['Competition System', 'Display System', 'Event Support'] }),
+
+    P({ id: 'tme-2013-10', f: 'TME OCT2013',
+        title: 'Thailand Mobile Expo Oct 2013', subtitle: 'AIS Booth — Integrated Event System',
+        year: '2013', date: 'ตุลาคม 2556', location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์', categories: ['Event', 'System Integration'],
+        summary: 'ระบบในบูท AIS งาน Thailand Mobile Expo ตุลาคม 2556 ทั้งเรียกคิว จอโปรโมชัน และระบบกันขโมยแท่นวางมือถือ',
+        features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชัน'] }),
+
+    P({ id: 'tme-2013-05', f: 'TME MAY2013',
+        title: 'Thailand Mobile Expo May 2013', subtitle: 'AIS Booth — Integrated Event System',
+        year: '2013', date: 'พฤษภาคม 2556', location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์', categories: ['Event', 'System Integration'],
+        summary: 'ระบบในบูท AIS งาน Thailand Mobile Expo พฤษภาคม 2556',
+        features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชัน'] }),
+
+    P({ id: 'tme-2013-02', f: 'TME FEB2013',
+        title: 'Thailand Mobile Expo Feb 2013', subtitle: 'AIS Booth — Integrated Event System',
+        year: '2013', date: 'กุมภาพันธ์ 2556', location: 'ศูนย์การประชุมแห่งชาติสิริกิติ์', categories: ['Event', 'System Integration'],
+        summary: 'ระบบในบูท AIS งาน Thailand Mobile Expo กุมภาพันธ์ 2556',
+        features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชัน'] }),
+
+    P({ id: 'lofficiel-2013', f: 'LOFFICIEL 1st Anniversary 2013',
+        title: "L'OFFICIEL 1st Anniversary", subtitle: 'Event Media & Photo Activity',
+        year: '2013', date: '2556', location: "L'OFFICIEL Thailand", categories: ['Event', 'Interactive'],
+        summary: "งานครบรอบ 1 ปีนิตยสาร L'OFFICIEL ประเทศไทย สื่อจัดแสดงและกิจกรรมถ่ายภาพภายในงาน",
+        features: ['Event Media', 'Photo Activity', 'Display System'] }),
+
+    P({ id: 'enfa-brain-expo-jun2013', f: 'ENFA Brain Expo JUN2013',
+        title: 'Enfa Brain Expo มิถุนายน 2013', subtitle: 'Interactive Exhibition Booth',
+        year: '2013', date: 'มิถุนายน 2556', location: 'Enfa Brain Expo', categories: ['Event', 'Interactive'],
+        summary: 'บูทนิทรรศการ Enfa Brain Expo รอบเดือนมิถุนายน 2556 พร้อมกิจกรรมอินเทอร์แอ็กทีฟสำหรับเด็ก',
+        features: ['Interactive Booth', 'Kids Activity', 'Exhibition Media'] }),
+
+    P({ id: 'enfa-brain-expo-mar2013', f: 'ENFA Brain Expo MAR2013',
+        title: 'Enfa Brain Expo มีนาคม 2013', subtitle: 'Interactive Exhibition Booth',
+        year: '2013', date: 'มีนาคม 2556', location: 'Enfa Brain Expo', categories: ['Event', 'Interactive'],
+        summary: 'บูทนิทรรศการ Enfa Brain Expo รอบเดือนมีนาคม 2556 พร้อมกิจกรรมอินเทอร์แอ็กทีฟสำหรับเด็ก',
+        features: ['Interactive Booth', 'Kids Activity', 'Exhibition Media'] }),
+
+    P({ id: 'enfa-brain-expo-2012', f: 'ENFA Brain Expo @Paragon SEP2012',
+        title: 'Enfa Brain Expo @ สยามพารากอน', subtitle: 'Interactive Exhibition Booth',
+        year: '2012', date: 'กันยายน 2555', location: 'สยามพารากอน', categories: ['Event', 'Interactive'],
+        summary: 'บูทนิทรรศการ Enfa Brain Expo ที่สยามพารากอน กิจกรรมอินเทอร์แอ็กทีฟและสื่อจัดแสดงสำหรับครอบครัว',
+        features: ['Interactive Booth', 'Kids Activity', 'Exhibition Media'] }),
+
+    P({ id: 'laura-mercier-2012', f: 'Luara Mecier 2012',
+        title: 'Laura Mercier', subtitle: 'Brand Event & Display',
+        year: '2012', date: '2555', location: 'Laura Mercier Thailand', categories: ['Event', 'Interactive'],
+        summary: 'งานอีเวนต์แบรนด์เครื่องสำอาง Laura Mercier สื่อจัดแสดงและกิจกรรมภายในงาน',
+        features: ['Event Media', 'Product Display', 'Brand Activation'] }),
+
+    P({ id: 'scb-klamai-2011', f: 'SCB กล้าใหม่ใฝ่รู้ 2011',
+        title: 'SCB กล้าใหม่...ใฝ่รู้ 2011', subtitle: 'Competition Event System',
+        year: '2011', date: '2554', location: 'ธนาคารไทยพาณิชย์', categories: ['Event', 'System Integration'],
+        summary: 'ระบบจัดการการแข่งขันและระบบภาพสำหรับโครงการ SCB กล้าใหม่...ใฝ่รู้ ปี 2554',
+        features: ['Competition System', 'Score Display', 'Event Support'] })
+  ]);
+})();

@@ -50,8 +50,9 @@
           <h2 class="gallery-title reveal">ภาพจากหน้างานจริง</h2>
           <div class="project-gallery reveal" data-gallery>
             ${shots.map((src, i) => `
-              <button class="gallery-item" type="button" data-index="${i}">
-                <img src="${esc(src)}" alt="${esc(project.title)} ${i + 1}" loading="lazy" decoding="async">
+              <button class="gallery-item" type="button" data-index="${i}" data-src="${esc(src)}">
+                <img src="${esc(src)}" alt="${esc(project.title)} ${i + 1}" loading="lazy" decoding="async"
+                     onerror="this.closest('.gallery-item').remove()">
               </button>`).join('')}
           </div>
         </div>
@@ -73,17 +74,20 @@
     const img = box.querySelector('.lightbox__img');
     const count = box.querySelector('.lightbox__count');
     let i = 0;
+    /* อ่านรายการรูปจากปุ่มที่ยังอยู่จริงในหน้า (รูปที่โหลดไม่ได้จะถูกลบทิ้งไปแล้ว) */
+    const live = () => [...grid.querySelectorAll('.gallery-item')].map(b => b.dataset.src);
     const show = n => {
-      i = (n + shots.length) % shots.length;
-      img.src = shots[i];
+      const L = live(); if (!L.length) return;
+      i = (n + L.length) % L.length;
+      img.src = L[i];
       img.alt = `${title} ${i + 1}`;
-      count.textContent = `${i + 1} / ${shots.length}`;
+      count.textContent = `${i + 1} / ${L.length}`;
     };
     const open = n => { show(n); box.classList.add('is-open'); document.body.style.overflow = 'hidden'; };
     const close = () => { box.classList.remove('is-open'); document.body.style.overflow = ''; };
     grid.addEventListener('click', e => {
       const b = e.target.closest('.gallery-item');
-      if (b) open(+b.dataset.index);
+      if (b) open(live().indexOf(b.dataset.src));
     });
     box.querySelector('.lightbox__close').addEventListener('click', close);
     box.querySelector('.lightbox__nav--prev').addEventListener('click', () => show(i - 1));
