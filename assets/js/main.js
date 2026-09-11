@@ -6,6 +6,13 @@
     return top(a[0]) - top(b[0]) || yearOf(b[0].year) - yearOf(a[0].year) || a[1] - b[1];
   }).map(([p]) => p);
 
+  /* รูปทั้งหมดของงาน: แกลเลอรี + รูปปก (ถ้าปกเป็นไฟล์แยกที่ไม่อยู่ในแกลเลอรี ให้เติมไว้หน้าสุด) */
+  const galleryOf = (project) => {
+    const list = (project.gallery || []).slice();
+    if (project.image && !list.includes(project.image) && !/\/cover\.webp$/.test(project.image)) list.unshift(project.image);
+    return list;
+  };
+
   const esc = (value = '') => String(value)
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
@@ -33,7 +40,8 @@
 
   // แกลเลอรีรูปหน้างานจริง — คลิกแล้วเปิดดูเต็มจอ
   const gallerySection = (project) => {
-    const shots = (project.gallery || []).filter(src => src !== project.image);
+    /* แสดงทุกรูปในแกลเลอรี รวมรูปที่ใช้เป็นปกด้วย (ปกถูกครอป จึงต้องกดดูเต็มได้) ถ้าปกไม่อยู่ในรายการให้เติมไว้หน้าสุด */
+    const shots = galleryOf(project);
     if (!shots.length) return '';
     return `
       <section class="section section--white">
@@ -227,7 +235,7 @@
           <a class="button button--light" href="contact.html">คุยเรื่องโปรเจกต์ <span>↗</span></a>
         </div>
       </section>`;
-    setupLightbox((project.gallery || []).filter(src => src !== project.image), project.title);
+    setupLightbox(galleryOf(project), project.title);
     initReveal();
   }
 
