@@ -51,17 +51,44 @@
           <div class="project-gallery reveal" data-gallery>
             ${shots.map((src, i) => `
               <button class="gallery-item" type="button" data-index="${i}" data-src="${esc(src)}">
-                <img src="${esc(src)}" alt="${esc(project.title)} ${i + 1}" loading="lazy" decoding="async"
-                     onerror="this.closest('.gallery-item').remove()">
+                <img alt="${esc(project.title)} ${i + 1}" loading="lazy" decoding="async">
               </button>`).join('')}
           </div>
         </div>
       </section>`;
   };
 
+  /* โหลดรูปแกลเลอรีทีละชุด
+     รายการรูปเป็นแค่ "รายชื่อที่เป็นไปได้" (ไล่เลข 01, 02, ... ไปจนสุด)
+     โหลดครั้งละ 12 รูป ถ้าชุดไหนไม่มีรูปโหลดได้เลย แปลว่าหมดแล้ว หยุดยิงต่อ
+     รูปที่โหลดไม่ได้จะถูกถอดออกจากแกลเลอรีเอง */
+  function loadGallery(grid) {
+    const CHUNK = 12;
+    const items = [...grid.querySelectorAll('.gallery-item')];
+    let at = 0;
+    (function next() {
+      const batch = items.slice(at, at + CHUNK);
+      at += CHUNK;
+      if (!batch.length) return;
+      let left = batch.length, ok = 0;
+      const done = () => {
+        if (--left) return;
+        if (ok) next();
+        else items.slice(at).forEach(b => b.remove());   /* ชุดนี้ไม่มีรูปเลย = หมดแล้ว */
+      };
+      batch.forEach(b => {
+        const img = b.querySelector('img');
+        img.addEventListener('load', () => { ok++; done(); });
+        img.addEventListener('error', () => { b.remove(); done(); });
+        img.src = b.dataset.src;
+      });
+    })();
+  }
+
   function setupLightbox(shots, title) {
     const grid = document.querySelector('[data-gallery]');
     if (!grid || !shots.length) return;
+    loadGallery(grid);
     const box = document.createElement('div');
     box.className = 'lightbox';
     box.innerHTML = `

@@ -367,7 +367,7 @@ window.TSTONE_PROJECTS = [
     year: '2019',
     date: '2562',
     location: 'ณ สัทธา อุทยานไทย ราชบุรี',
-    image: 'assets/images/projects/nasatta/cover.webp',
+    image: 'assets/images/projects/nasatta/08.webp',
     gallery: ['assets/images/projects/nasatta/01.webp', 'assets/images/projects/nasatta/02.webp', 'assets/images/projects/nasatta/03.webp', 'assets/images/projects/nasatta/04.webp', 'assets/images/projects/nasatta/05.webp', 'assets/images/projects/nasatta/06.webp', 'assets/images/projects/nasatta/07.webp', 'assets/images/projects/nasatta/08.webp'],
     categories: ['Museum', 'Interactive'],
     summary: 'สื่อจัดแสดงและงานฉายภาพ Projection Mapping ภายในอาคารนิทรรศการ ณ สัทธา อุทยานไทย',
@@ -668,7 +668,7 @@ window.TSTONE_PROJECTS = [
     year: '2025',
     date: '2568',
     location: 'AIS Siam',
-    image: 'assets/images/projects/ais-siam-social-live/cover.webp',
+    image: 'assets/images/projects/ais-siam-social-live/06.webp',
     gallery: ['assets/images/projects/ais-siam-social-live/01.webp', 'assets/images/projects/ais-siam-social-live/02.webp', 'assets/images/projects/ais-siam-social-live/03.webp', 'assets/images/projects/ais-siam-social-live/04.webp', 'assets/images/projects/ais-siam-social-live/05.webp', 'assets/images/projects/ais-siam-social-live/06.webp'],
     categories: ['Event', 'System Integration'],
     summary: 'ติดตั้งสตูดิโอถ่ายทอดสดครบวงจร ทั้งกล้อง ไฟ ระบบเสียง และระบบสตรีมมิงสำหรับรายการโซเชียลไลฟ์',
@@ -1572,7 +1572,7 @@ window.TSTONE_PROJECTS = [
     date: '12 ธันวาคม 2561',
     location: 'Rutnin Eye Hospital',
     image: 'assets/images/projects/rutnin/cover.webp',
-    gallery: ['assets/images/projects/rutnin/01.webp', 'assets/images/projects/rutnin/02.webp', 'assets/images/projects/rutnin/03.webp', 'assets/images/projects/rutnin/04.webp', 'assets/images/projects/rutnin/05.webp'],
+    gallery: ['assets/images/projects/rutnin/01.webp', 'assets/images/projects/rutnin/02.webp', 'assets/images/projects/rutnin/03.webp', 'assets/images/projects/rutnin/05.webp'],
     categories: ['Event', 'Interactive'],
     summary: 'ระบบถ่ายรูปและแสดงภาพขึ้นจอ ช่วยสร้างบรรยากาศและคอนเทนต์ร่วมกันแบบทันทีภายในงาน',
     features: ['Photo Capture System', 'Live Photo Wall']
@@ -2251,9 +2251,10 @@ window.TSTONE_PROJECTS = [
 (function () {
   var BASE = 'assets/images/projects/cut6/';
   function C(f) { return BASE + f + '/cover.webp'; }
+  /* ไล่เลขไฟล์ไปจนสุด (โฟลเดอร์ที่มีรูปน้อยกว่านี้ ตัวที่เกินจะถูกซ่อนให้เองตอนโหลดไม่เจอ) */
   function G(f, n) {
     var a = [];
-    for (var i = 1; i <= (n || 12); i++) a.push(BASE + f + '/' + (i < 10 ? '0' + i : i) + '.webp');
+    for (var i = 1; i <= (n || 106); i++) a.push(BASE + f + '/' + (i < 10 ? '0' + i : i) + '.webp');
     return a;
   }
   /* เพิ่มรูปเข้าแกลเลอรีของงานที่มีอยู่แล้ว */
@@ -2265,7 +2266,13 @@ window.TSTONE_PROJECTS = [
       }
     }
   }
-  function P(o) { o.image = C(o.f); o.gallery = G(o.f); delete o.f; return o; }
+  /* cover: เลขรูปที่จะใช้เป็นหน้าปก (ไม่ใส่ = ใช้ cover.webp ที่ครอปไว้) */
+  function P(o) {
+    o.gallery = G(o.f);
+    o.image = o.cover ? BASE + o.f + '/' + (o.cover < 10 ? '0' + o.cover : o.cover) + '.webp' : C(o.f);
+    delete o.f; delete o.cover;
+    return o;
+  }
 
   /* ---- รูปเพิ่มของงานที่มีอยู่แล้ว ---- */
   addTo('egat-smart-learning', 'EGAT Smart Learning Green Room 2023');
@@ -2340,7 +2347,7 @@ window.TSTONE_PROJECTS = [
         summary: 'สื่ออินเทอร์แอ็กทีฟและจอจัดแสดงในงานของ PTTGC ที่พัทยา',
         features: ['Interactive Display', 'Exhibition Media', 'Event Support'] }),
 
-    P({ id: 'vibhavadi-40', f: '40 ปี วิภาวดีรังสิต 2017',
+    P({ id: 'vibhavadi-40', f: '40 ปี วิภาวดีรังสิต 2017', cover: 4,
         title: '40 ปี ถนนวิภาวดีรังสิต', subtitle: 'Anniversary Exhibition',
         year: '2017', date: '2560', location: 'กรุงเทพฯ', categories: ['Event', 'Interactive'],
         summary: 'นิทรรศการครบรอบ 40 ปีถนนวิภาวดีรังสิต สื่อจัดแสดงเล่าประวัติและพัฒนาการของเส้นทาง',
