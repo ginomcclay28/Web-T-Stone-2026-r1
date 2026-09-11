@@ -2266,11 +2266,17 @@ window.TSTONE_PROJECTS = [
       }
     }
   }
-  /* cover: เลขรูปที่จะใช้เป็นหน้าปก (ไม่ใส่ = ใช้ cover.webp ที่ครอปไว้) */
+  function num(f, i) { return BASE + f + '/' + (i < 10 ? '0' + i : i) + '.webp'; }
+  /* cover: เลขรูปที่จะใช้เป็นหน้าปก (ไม่ใส่ = ใช้ cover.webp ที่ครอปไว้)
+     skip: เลขรูปที่ไม่อยากให้โชว์ในแกลเลอรี */
   function P(o) {
-    o.gallery = G(o.f);
-    o.image = o.cover ? BASE + o.f + '/' + (o.cover < 10 ? '0' + o.cover : o.cover) + '.webp' : C(o.f);
-    delete o.f; delete o.cover;
+    var skip = o.skip || [];
+    o.gallery = G(o.f).filter(function (s) {
+      for (var i = 0; i < skip.length; i++) if (s === num(o.f, skip[i])) return false;
+      return true;
+    });
+    o.image = o.cover ? num(o.f, o.cover) : C(o.f);
+    delete o.f; delete o.cover; delete o.skip;
     return o;
   }
 
@@ -2383,7 +2389,7 @@ window.TSTONE_PROJECTS = [
         summary: 'เครื่องสแกนจำลองให้เห็นแบคทีเรียบนเสื้อผ้า สื่อสาธิตสินค้าแบบอินเทอร์แอ็กทีฟของ OMO',
         features: ['Interactive Demo', 'Product Activation', 'Custom Hardware'] }),
 
-    P({ id: 'ok-award-2014', f: 'OK award 2014',
+    P({ id: 'ok-award-2014', f: 'OK award 2014', cover: 6,
         title: 'OK Award 2014', subtitle: 'Award Show Media System',
         year: '2014', date: '2557', location: 'OK Award', categories: ['Event', 'System Integration'],
         summary: 'ระบบภาพและสื่อบนเวทีงานประกาศรางวัล OK Award 2014',
@@ -2401,13 +2407,13 @@ window.TSTONE_PROJECTS = [
         summary: 'นิทรรศการ "ชายหญิง สิ่งสมมติ" ของ สสส. สื่ออินเทอร์แอ็กทีฟชวนตั้งคำถามเรื่องบทบาททางเพศ',
         features: ['Interactive Exhibition', 'Touchscreen', 'Projection'] }),
 
-    P({ id: 'sanam-luang-2014', f: 'วันเฉลิม สนามหลวง 2014',
+    P({ id: 'sanam-luang-2014', f: 'วันเฉลิม สนามหลวง 2014', cover: 3,
         title: 'งานวันเฉลิมพระชนมพรรษา สนามหลวง', subtitle: 'Outdoor Event Media',
         year: '2014', date: '2557', location: 'ท้องสนามหลวง', categories: ['Event', 'System Integration'],
         summary: 'ระบบภาพและสื่อจัดแสดงกลางแจ้งในงานวันเฉลิมพระชนมพรรษา ณ ท้องสนามหลวง',
         features: ['Outdoor Display', 'Projection', 'Event Support'] }),
 
-    P({ id: 'enfa-brain-expo-2014', f: 'ENFA Brain Expo SEP2014',
+    P({ id: 'enfa-brain-expo-2014', f: 'ENFA Brain Expo SEP2014', cover: 3, skip: [12],
         title: 'Enfa Brain Expo กันยายน 2014', subtitle: 'Interactive Exhibition Booth',
         year: '2014', date: 'กันยายน 2557', location: 'Enfa Brain Expo', categories: ['Event', 'Interactive'],
         summary: 'บูทนิทรรศการ Enfa Brain Expo รอบเดือนกันยายน 2557 พร้อมกิจกรรมอินเทอร์แอ็กทีฟสำหรับเด็กและผู้ปกครอง',
@@ -2455,7 +2461,7 @@ window.TSTONE_PROJECTS = [
         summary: 'ระบบในบูท AIS งาน Thailand Mobile Expo กุมภาพันธ์ 2556',
         features: ['ระบบเรียกและโชว์คิว', 'ระบบกันขโมยพร้อมแท่นวางมือถือ', 'จอโปรโมชัน'] }),
 
-    P({ id: 'lofficiel-2013', f: 'LOFFICIEL 1st Anniversary 2013',
+    P({ id: 'lofficiel-2013', f: 'LOFFICIEL 1st Anniversary 2013', cover: 6,
         title: "L'OFFICIEL 1st Anniversary", subtitle: 'Event Media & Photo Activity',
         year: '2013', date: '2556', location: "L'OFFICIEL Thailand", categories: ['Event', 'Interactive'],
         summary: "งานครบรอบ 1 ปีนิตยสาร L'OFFICIEL ประเทศไทย สื่อจัดแสดงและกิจกรรมถ่ายภาพภายในงาน",
@@ -2473,7 +2479,7 @@ window.TSTONE_PROJECTS = [
         summary: 'บูทนิทรรศการ Enfa Brain Expo รอบเดือนมีนาคม 2556 พร้อมกิจกรรมอินเทอร์แอ็กทีฟสำหรับเด็ก',
         features: ['Interactive Booth', 'Kids Activity', 'Exhibition Media'] }),
 
-    P({ id: 'enfa-brain-expo-2012', f: 'ENFA Brain Expo @Paragon SEP2012',
+    P({ id: 'enfa-brain-expo-2012', f: 'ENFA Brain Expo @Paragon SEP2012', cover: 59,
         title: 'Enfa Brain Expo @ สยามพารากอน', subtitle: 'Interactive Exhibition Booth',
         year: '2012', date: 'กันยายน 2555', location: 'สยามพารากอน', categories: ['Event', 'Interactive'],
         summary: 'บูทนิทรรศการ Enfa Brain Expo ที่สยามพารากอน กิจกรรมอินเทอร์แอ็กทีฟและสื่อจัดแสดงสำหรับครอบครัว',
