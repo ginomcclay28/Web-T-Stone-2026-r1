@@ -196,6 +196,8 @@ h3 { font-size: 1.45rem; margin-bottom: 12px; }
 .filter-button { flex: 0 0 auto; border: 1px solid var(--line); background: var(--white); border-radius: 999px; padding: 10px 15px; font-weight: 800; cursor: pointer; }
 .filter-button.is-active { background: var(--ink); color: var(--white); border-color: var(--ink); }
 .work-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 35px; }
+/* หน้า Work: ช่องค้นหาอยู่ติดใต้แถบกรองอยู่แล้ว ไม่ต้องเว้นบนเยอะ */
+.filter-bar + .section { padding-top: 40px; }
 .search-box { flex: 0 1 390px; position: relative; }
 .search-box input { width: 100%; height: 52px; padding: 0 18px 0 46px; background: var(--white); border: 1px solid var(--line); border-radius: 999px; outline: none; }
 .search-box::before { content: "⌕"; position: absolute; left: 18px; top: 50%; transform: translateY(-54%); font-size: 1.45rem; }
