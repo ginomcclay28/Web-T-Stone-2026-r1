@@ -2498,3 +2498,168 @@ window.TSTONE_PROJECTS = [
         features: ['Competition System', 'Score Display', 'Event Support'] })
   ]);
 })();
+
+/* ============================================================
+   ชุด Cut7 — งานเพิ่มเติมปี 2015-2026
+   รูปอยู่ที่ assets/images/projects/cut7/<ชื่อโฟลเดอร์>/  (cover.webp + 01..NN.webp)
+   โฟลเดอร์ที่ขึ้นต้นว่า "เพิ่มเติม" = เอารูปไปต่อท้ายแกลเลอรีของงานเดิม
+   ============================================================ */
+(function () {
+  var BASE = 'assets/images/projects/cut7/';
+  function num(f, i) { return BASE + f + '/' + (i < 10 ? '0' + i : i) + '.webp'; }
+  function G(f, n) {
+    var a = [];
+    for (var i = 1; i <= (n || 69); i++) a.push(num(f, i));
+    return a;
+  }
+  function addTo(id, f) {
+    for (var i = 0; i < window.TSTONE_PROJECTS.length; i++) {
+      if (window.TSTONE_PROJECTS[i].id === id) {
+        window.TSTONE_PROJECTS[i].gallery = window.TSTONE_PROJECTS[i].gallery.concat(G(f));
+        return;
+      }
+    }
+  }
+  function P(o) {
+    var skip = o.skip || [];
+    o.gallery = G(o.f).filter(function (s) {
+      for (var i = 0; i < skip.length; i++) if (s === num(o.f, skip[i])) return false;
+      return true;
+    });
+    o.image = o.cover ? num(o.f, o.cover) : BASE + o.f + '/cover.webp';
+    delete o.f; delete o.cover; delete o.skip;
+    return o;
+  }
+
+  /* ---- รูปเพิ่มของงานเดิม ---- */
+  addTo('or-academy',       'เพิ่มเติม OR Academy');
+  addTo('thaibev-expo',     'เพิ่มเติม ThaiBev Expo 2015');
+  addTo('the-voice-kid',    'เพิ่มเติม The Voice Kid');
+  addTo('grabfood-hotdeal', 'GrabFood HotDeal 2024');   /* งานเดียวกับของเดิม รวมเข้าด้วยกัน */
+
+  /* ---- งานใหม่ ---- */
+  window.TSTONE_PROJECTS = window.TSTONE_PROJECTS.concat([
+    P({ id: 'voice-roadshow-2026', f: 'The Voice & The Voice Teen RoadShow Audition & Scout Scroing 2026',
+        title: 'The Voice & The Voice Teen 2026 — RoadShow Audition', subtitle: 'Audition Queue & Scout Scoring System',
+        year: '2026', date: '2569', location: 'The Voice Thailand', categories: ['Event', 'Registration', 'System Integration'],
+        summary: 'ระบบออดิชันสัญจร 4 ภาคของ The Voice และ The Voice Teen 2026 ทั้งรับคิว จัดลำดับผู้เข้าแข่งขัน และระบบให้คะแนนของทีมสเกาต์แบบเรียลไทม์',
+        features: ['Audition Queue', 'Scout Scoring', 'Realtime Dashboard', 'On-site Support'] }),
+
+    P({ id: 'kongtunmae-2026', f: 'กองทุนแม่ของแผ่นดิน พลังแห่งความเมตตา 2026',
+        title: 'กองทุนแม่ของแผ่นดิน — พลังแห่งความเมตตา', subtitle: 'Exhibition & Interactive Media',
+        year: '2026', date: '2569', location: 'นิทรรศการกองทุนแม่ของแผ่นดิน', categories: ['Event', 'Interactive'],
+        summary: 'นิทรรศการกองทุนแม่ของแผ่นดิน "พลังแห่งความเมตตา" สื่อจัดแสดงอินเทอร์แอ็กทีฟและงานฉายภาพเล่าเรื่องพระมหากรุณาธิคุณ',
+        features: ['Interactive Exhibition', 'Projection', 'Exhibition Media'] }),
+
+    P({ id: 'egat-hq-renovate-2024', f: 'ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง รีโนเวท 2024',
+        title: 'ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง (รีโนเวท)', subtitle: 'Learning Centre Renovation',
+        year: '2024', date: '2567', location: 'กฟผ. สำนักงานกลาง บางกรวย', categories: ['Museum', 'Interactive'],
+        summary: 'ปรับปรุงศูนย์การเรียนรู้ กฟผ. สำนักงานกลางใหม่ทั้งหมด สื่อจัดแสดงอินเทอร์แอ็กทีฟ จอสัมผัส และงานฉายภาพชุดใหม่',
+        features: ['Renovation', 'Interactive Exhibition', 'Touchscreen', 'Projection'] }),
+
+    P({ id: 'agri-museum-r10', f: 'พิพิธภัณฑ์การเกษตร เฉลิมพระเกียรติ อาคาร ร.๑๐ 2023',
+        title: 'พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติ — อาคาร ร.๑๐', subtitle: 'Museum Interactive Exhibition',
+        year: '2023', date: '2566', location: 'พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติฯ ปทุมธานี', categories: ['Museum', 'Interactive'],
+        summary: 'นิทรรศการในอาคารเฉลิมพระเกียรติรัชกาลที่ 10 พิพิธภัณฑ์การเกษตรฯ สื่ออินเทอร์แอ็กทีฟและงานฉายภาพเล่าเรื่องเกษตรกรรมไทย',
+        features: ['Interactive Exhibition', 'Projection', 'Touchscreen', 'System Integration'] }),
+
+    P({ id: 'vichai-projection-2023', f: 'Vichai Trading Projection Mapping 2023',
+        title: 'Vichai Trading Projection Mapping', subtitle: 'Projection Mapping Show',
+        year: '2023', date: '2566', location: 'Vichai Trading', categories: ['Event', 'Interactive'],
+        summary: 'งานฉายภาพ Projection Mapping บนอาคารและฉากเวทีสำหรับงานของ Vichai Trading',
+        features: ['Projection Mapping', 'Show Control', 'Event Media'] }),
+
+    P({ id: 'pttep-wangnoi-2022', f: 'PTTEP Wangnoi 2022',
+        title: 'PTTEP วังน้อย', subtitle: 'Learning Centre Interactive',
+        year: '2022', date: '2565', location: 'ปตท.สผ. วังน้อย', categories: ['Museum', 'Interactive'],
+        summary: 'สื่อจัดแสดงอินเทอร์แอ็กทีฟและจอสัมผัสภายในศูนย์การเรียนรู้ ปตท.สผ. วังน้อย',
+        features: ['Interactive Exhibition', 'Touchscreen', 'System Integration'] }),
+
+    P({ id: 'pttlng-museum-2022', f: 'PTTLNG Museum Rayong 2022',
+        title: 'PTT LNG Museum ระยอง', subtitle: 'Museum Interactive Exhibition',
+        year: '2022', date: '2565', location: 'PTT LNG ระยอง', categories: ['Museum', 'Interactive'],
+        summary: 'พิพิธภัณฑ์ PTT LNG ระยอง สื่อจัดแสดงอินเทอร์แอ็กทีฟ จอสัมผัส โมเดลประกอบแสงเสียง และงานฉายภาพตลอดเส้นทางชม',
+        features: ['Interactive Exhibition', 'Touchscreen', 'Projection', 'System Integration'] }),
+
+    P({ id: 'ayutthaya-666-game', f: 'Game 666ปี กรุงศรีอยุธยา 2017',
+        title: 'เกม 666 ปี กรุงศรีอยุธยา', subtitle: 'Interactive Learning Game',
+        year: '2017', date: '2560', location: 'นิทรรศการ 666 ปี กรุงศรีอยุธยา', categories: ['Event', 'Game', 'Interactive'],
+        summary: 'เกมอินเทอร์แอ็กทีฟในนิทรรศการครบรอบ 666 ปี กรุงศรีอยุธยา ให้ผู้ชมเรียนรู้ประวัติศาสตร์ผ่านการเล่น',
+        features: ['Interactive Game', 'Touchscreen', 'Exhibition Media'] }),
+
+    P({ id: 'ais-4g-expo-2016', f: 'AIS 4G Expo @Paragon 2016',
+        title: 'AIS 4G Expo @ สยามพารากอน', subtitle: 'Event Booth & Display System',
+        year: '2016', date: '2559', location: 'สยามพารากอน', categories: ['Event', 'System Integration'],
+        summary: 'ระบบจอแสดงผลและสื่อในบูท AIS 4G Expo ที่สยามพารากอน',
+        features: ['Display System', 'Booth Media', 'On-site Support'] }),
+
+    P({ id: 'finding-dory-2016', f: 'Finding Dory 2016',
+        title: 'Finding Dory', subtitle: 'Movie Campaign Interactive',
+        year: '2016', date: '2559', location: 'กิจกรรมโปรโมตภาพยนตร์', categories: ['Event', 'Interactive'],
+        summary: 'กิจกรรมอินเทอร์แอ็กทีฟโปรโมตภาพยนตร์ Finding Dory จอสัมผัสและมุมถ่ายภาพในธีมใต้ทะเล',
+        features: ['Interactive Activation', 'Photo Activity', 'Event Media'] }),
+
+    P({ id: 'listerine-game-2016', f: 'Game Listerine 2016',
+        title: 'เกม Listerine', subtitle: 'Brand Activation Game',
+        year: '2016', date: '2559', location: 'Listerine', categories: ['Event', 'Game'],
+        summary: 'เกมกิจกรรมหน้าร้านของ Listerine เล่นสนุกแล้วลุ้นรับของรางวัลจากแบรนด์',
+        features: ['Brand Game', 'Touchscreen', 'Prize Mechanic'] }),
+
+    P({ id: 'royal-piano-song-2016', f: 'Game Royal Piano Song 2016',
+        title: 'เกมเปียโนบทเพลงพระราชนิพนธ์', subtitle: 'Interactive Music Game',
+        year: '2016', date: '2559', location: 'นิทรรศการเฉลิมพระเกียรติ', categories: ['Event', 'Game', 'Interactive'],
+        summary: 'เกมเปียโนอินเทอร์แอ็กทีฟให้ผู้ชมเล่นบทเพลงพระราชนิพนธ์ พร้อมภาพประกอบบนจอ',
+        features: ['Music Game', 'Interactive Display', 'Exhibition Media'] }),
+
+    P({ id: 'thai-royal-dress-game', f: 'Game ชุดไทยพระราชนิยม 2016',
+        title: 'เกมชุดไทยพระราชนิยม', subtitle: 'Interactive Dress-up Game',
+        year: '2016', date: '2559', location: 'นิทรรศการชุดไทยพระราชนิยม', categories: ['Museum', 'Game', 'Interactive'],
+        summary: 'เกมแต่งชุดไทยพระราชนิยมบนจอสัมผัส เรียนรู้ชุดไทยแต่ละแบบและโอกาสการใช้งาน',
+        features: ['Dress-up Game', 'Touchscreen', 'Learning Content'] }),
+
+    /* 4 งานนี้ยังไม่ได้ใส่รายละเอียด รอ Gino เติมภายหลัง ปีอ้างอิงจากชื่อโฟลเดอร์ */
+    P({ id: 'johnson-healthtec-2016', f: 'Johnson Healthtec 2016',
+        title: 'Johnson Healthtec', subtitle: '',
+        year: '2016', date: '2559', location: 'Johnson Healthtec', categories: ['Event', 'Interactive'],
+        summary: 'งานของ Johnson Healthtec ปี 2559', features: [] }),
+
+    P({ id: 'qatar-airways-2016', f: 'Qatar Airway 2016',
+        title: 'Qatar Airways', subtitle: '',
+        year: '2016', date: '2559', location: 'Qatar Airways', categories: ['Event', 'Interactive'],
+        summary: 'งานของ Qatar Airways ปี 2559', features: [] }),
+
+    P({ id: 'tulip-40-2016', f: 'Tulip 40 ปี 2016',
+        title: 'Tulip ครบรอบ 40 ปี', subtitle: '',
+        year: '2016', date: '2559', location: 'Tulip', categories: ['Event', 'Interactive'],
+        summary: 'งานครบรอบ 40 ปี Tulip ปี 2559', features: [] }),
+
+    P({ id: 'acuvue-photobooth-2015', f: 'Acuvue Photonooth 2015',
+        title: 'Acuvue Photo Booth', subtitle: 'Interactive Photo Booth',
+        year: '2015', date: '2558', location: 'Acuvue', categories: ['Event', 'Interactive'],
+        summary: 'ตู้ถ่ายภาพอินเทอร์แอ็กทีฟพร้อมกรอบแบรนด์และพิมพ์ภาพทันทีสำหรับกิจกรรมของ Acuvue',
+        features: ['Photo Booth', 'Instant Print', 'Brand Frame'] }),
+
+    P({ id: 'central-embassy-2015', f: 'Central Embassy 2015',
+        title: 'Central Embassy', subtitle: '',
+        year: '2015', date: '2558', location: 'Central Embassy', categories: ['Event', 'Interactive'],
+        summary: 'งานที่ Central Embassy ปี 2558', features: [] }),
+
+    P({ id: 'sanofi-journey-2015', f: 'Sanofi Journey to Success 2015',
+        title: 'Sanofi — Journey to Success', subtitle: 'Conference Interactive',
+        year: '2015', date: '2558', location: 'Sanofi', categories: ['Event', 'Interactive'],
+        summary: 'สื่ออินเทอร์แอ็กทีฟและระบบภาพในงานประชุม Journey to Success ของ Sanofi',
+        features: ['Interactive Display', 'Conference Media', 'System Integration'] }),
+
+    P({ id: 'silpacheep-2015', f: 'มูลนิธิส่งเสริมศิลปาชีพ @เมืองทอง 2015',
+        title: 'มูลนิธิส่งเสริมศิลปาชีพฯ @ เมืองทองธานี', subtitle: 'Exhibition Interactive Media',
+        year: '2015', date: '2558', location: 'อิมแพ็ค เมืองทองธานี', categories: ['Event', 'Interactive'],
+        summary: 'สื่อจัดแสดงและงานอินเทอร์แอ็กทีฟในนิทรรศการของมูลนิธิส่งเสริมศิลปาชีพฯ ที่เมืองทองธานี',
+        features: ['Exhibition Media', 'Interactive Display', 'Projection'] }),
+
+    P({ id: 'sukpordee-2015', f: 'สุขพอดี 2015',
+        title: 'นิทรรศการสุขพอดี', subtitle: 'Interactive Exhibition',
+        year: '2015', date: '2558', location: 'นิทรรศการสุขพอดี', categories: ['Event', 'Interactive'],
+        summary: 'นิทรรศการสุขพอดี สื่ออินเทอร์แอ็กทีฟชวนผู้ชมทบทวนความสุขในชีวิตประจำวัน',
+        features: ['Interactive Exhibition', 'Touchscreen', 'Projection'] })
+  ]);
+})();
