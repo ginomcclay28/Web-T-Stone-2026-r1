@@ -2582,7 +2582,7 @@ window.TSTONE_PROJECTS = [
         features: ['Interactive Exhibition', 'Touchscreen', 'Projection', 'System Integration'] }),
 
     P({ id: 'ayutthaya-666-game', f: 'Game 666ปี กรุงศรีอยุธยา 2017',
-        title: 'เกม 666 ปี กรุงศรีอยุธยา', subtitle: 'Interactive Learning Game',
+        title: '666 ปี กรุงศรีอยุธยา', subtitle: 'Interactive Learning Game',
         year: '2017', date: '2560', location: 'นิทรรศการ 666 ปี กรุงศรีอยุธยา', categories: ['Event', 'Game', 'Interactive'],
         summary: 'เกมอินเทอร์แอ็กทีฟในนิทรรศการครบรอบ 666 ปี กรุงศรีอยุธยา ให้ผู้ชมเรียนรู้ประวัติศาสตร์ผ่านการเล่น',
         features: ['Interactive Game', 'Touchscreen', 'Exhibition Media'] }),
@@ -2600,19 +2600,19 @@ window.TSTONE_PROJECTS = [
         features: ['Interactive Activation', 'Photo Activity', 'Event Media'] }),
 
     P({ id: 'listerine-game-2016', f: 'Game Listerine 2016',
-        title: 'เกม Listerine', subtitle: 'Brand Activation Game',
+        title: 'Listerine', subtitle: 'Brand Activation Game',
         year: '2016', date: '2559', location: 'Listerine', categories: ['Event', 'Game'],
         summary: 'เกมกิจกรรมหน้าร้านของ Listerine เล่นสนุกแล้วลุ้นรับของรางวัลจากแบรนด์',
         features: ['Brand Game', 'Touchscreen', 'Prize Mechanic'] }),
 
     P({ id: 'royal-piano-song-2016', f: 'Game Royal Piano Song 2016',
-        title: 'เกมเปียโนบทเพลงพระราชนิพนธ์', subtitle: 'Interactive Music Game',
+        title: 'เปียโนบทเพลงพระราชนิพนธ์', subtitle: 'Interactive Music Game',
         year: '2016', date: '2559', location: 'นิทรรศการเฉลิมพระเกียรติ', categories: ['Event', 'Game', 'Interactive'],
         summary: 'เกมเปียโนอินเทอร์แอ็กทีฟให้ผู้ชมเล่นบทเพลงพระราชนิพนธ์ พร้อมภาพประกอบบนจอ',
         features: ['Music Game', 'Interactive Display', 'Exhibition Media'] }),
 
     P({ id: 'thai-royal-dress-game', f: 'Game ชุดไทยพระราชนิยม 2016',
-        title: 'เกมชุดไทยพระราชนิยม', subtitle: 'Interactive Dress-up Game',
+        title: 'ชุดไทยพระราชนิยม', subtitle: 'Interactive Dress-up Game',
         year: '2016', date: '2559', location: 'นิทรรศการชุดไทยพระราชนิยม', categories: ['Museum', 'Game', 'Interactive'],
         summary: 'เกมแต่งชุดไทยพระราชนิยมบนจอสัมผัส เรียนรู้ชุดไทยแต่ละแบบและโอกาสการใช้งาน',
         features: ['Dress-up Game', 'Touchscreen', 'Learning Content'] }),
@@ -2639,12 +2639,12 @@ window.TSTONE_PROJECTS = [
         summary: 'ตู้ถ่ายภาพอินเทอร์แอ็กทีฟพร้อมกรอบแบรนด์และพิมพ์ภาพทันทีสำหรับกิจกรรมของ Acuvue',
         features: ['Photo Booth', 'Instant Print', 'Brand Frame'] }),
 
-    P({ id: 'central-embassy-2015', f: 'Central Embassy 2015',
+    P({ id: 'central-embassy-2015', f: 'Central Embassy 2015', cover: 3,
         title: 'Central Embassy', subtitle: '',
         year: '2015', date: '2558', location: 'Central Embassy', categories: ['Event', 'Interactive'],
         summary: 'งานที่ Central Embassy ปี 2558', features: [] }),
 
-    P({ id: 'sanofi-journey-2015', f: 'Sanofi Journey to Success 2015',
+    P({ id: 'sanofi-journey-2015', f: 'Sanofi Journey to Success 2015', cover: 10,
         title: 'Sanofi — Journey to Success', subtitle: 'Conference Interactive',
         year: '2015', date: '2558', location: 'Sanofi', categories: ['Event', 'Interactive'],
         summary: 'สื่ออินเทอร์แอ็กทีฟและระบบภาพในงานประชุม Journey to Success ของ Sanofi',
