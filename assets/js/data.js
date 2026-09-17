@@ -2863,11 +2863,6 @@ window.TSTONE_PROJECTS = [
         summary: 'งานฉายภาพ Projection Mapping บนอาคารและฉากเวทีสำหรับงานของ Vichai Trading',
         features: ['Projection Mapping', 'Show Control', 'Event Media'] }),
 
-    P({ id: 'pttep-wangnoi-2022', f: 'PTTEP Wangnoi 2022',
-        title: 'PTTEP วังน้อย', subtitle: 'Learning Centre Interactive',
-        year: '2022', date: '2565', location: 'ปตท.สผ. วังน้อย', categories: ['Museum', 'Interactive'],
-        summary: 'สื่อจัดแสดงอินเทอร์แอ็กทีฟและจอสัมผัสภายในศูนย์การเรียนรู้ ปตท.สผ. วังน้อย',
-        features: ['Interactive Exhibition', 'Touchscreen', 'System Integration'] }),
 
     P({ id: 'pttlng-museum-2022', f: 'PTTLNG Museum Rayong 2022',
         title: 'PTT LNG Museum ระยอง', subtitle: 'Museum Interactive Exhibition',
@@ -3088,7 +3083,7 @@ window.TSTONE_PROJECTS = [
         summary: 'พิพิธภัณฑ์ดิน สื่อจัดแสดงอินเทอร์แอ็กทีฟ จอสัมผัส และงานฉายภาพเล่าเรื่องดินและการใช้ประโยชน์',
         features: ['Interactive Exhibition', 'Touchscreen', 'Projection', 'System Integration'] }),
 
-    P({ id: 'isuzu-racing-2024', f: 'IZUSU Racing 2024',
+    P({ id: 'isuzu-racing-2024', f: 'IZUSU Racing 2024', link: 'https://isuzulampangracing.web.app',
         title: 'ISUZU Racing', subtitle: 'Racing Simulator Activation',
         year: '2024', date: '2567', location: 'ISUZU', categories: ['Event', 'Interactive', 'Game'],
         summary: 'กิจกรรมเกมแข่งรถจำลองในงานของ ISUZU พร้อมระบบจัดอันดับผู้เล่น',
@@ -3244,4 +3239,16 @@ window.TSTONE_PROJECTS = [
         summary: 'หนังสือภาพอิเล็กทรอนิกส์รวมภาพถ่ายสมเด็จย่า พลิกชมพร้อมคำบรรยายแต่ละภาพ',
         features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] })
   ]);
+
+  /* รูปจากงาน PTTEP วังน้อย (ชุด cut7) ย้ายมารวมกับพิพิธภัณฑ์ ปตท.สผ. */
+  (function () {
+    var C7 = 'assets/images/projects/cut7/PTTEP Wangnoi 2022/';
+    var extra = [C7 + '01.webp', C7 + '02.webp'];
+    for (var i = 0; i < window.TSTONE_PROJECTS.length; i++) {
+      if (window.TSTONE_PROJECTS[i].id === 'pttep-museum-2022') {
+        window.TSTONE_PROJECTS[i].gallery = window.TSTONE_PROJECTS[i].gallery.concat(extra);
+        break;
+      }
+    }
+  })();
 })();
