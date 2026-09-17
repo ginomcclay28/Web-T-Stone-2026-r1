@@ -3012,10 +3012,16 @@ window.TSTONE_PROJECTS = [
     for (var i = 1; i <= mx; i++) a.push(num(f, i));
     return a;
   }
-  function addTo(id, f) {
+  /* skip = เลขรูปในโฟลเดอร์ที่ไม่อยากให้โชว์ */
+  function addTo(id, f, skip) {
+    skip = skip || [];
+    var add = G(f).filter(function (x) {
+      for (var i = 0; i < skip.length; i++) if (x === num(f, skip[i])) return false;
+      return true;
+    });
     for (var i = 0; i < window.TSTONE_PROJECTS.length; i++) {
       if (window.TSTONE_PROJECTS[i].id === id) {
-        window.TSTONE_PROJECTS[i].gallery = window.TSTONE_PROJECTS[i].gallery.concat(G(f));
+        window.TSTONE_PROJECTS[i].gallery = window.TSTONE_PROJECTS[i].gallery.concat(add);
         return;
       }
     }
@@ -3041,7 +3047,7 @@ window.TSTONE_PROJECTS = [
   addTo('museum-parliament', 'เพิ่มเติม วิวัฒรัฐสภาไทย');   /* 39 รูป */
   addTo('egat-lamtakong', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. ลำตะคอง');   /* 14 รูป */
   addTo('egat-elextropia', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. ลำตะคอง Elextropia');   /* 18 รูป */
-  addTo('egat-hq', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง');   /* 13 รูป */
+  addTo('egat-hq', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง', [5, 6, 7, 8, 9, 10, 11, 12]);   /* ตัดรูป 26-33 ออก */   /* 13 รูป */
   addTo('egat-hq-renovate-2024', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง renovate 2025');   /* 12 รูป */
   addTo('nanthasippakarn', 'เพิ่มเติม ศูนย์การเรียนรู้นันทสิปปาคาร น่าน 2025');   /* 18 รูป */
 
