@@ -2957,3 +2957,291 @@ window.TSTONE_PROJECTS = [
         features: ['Interactive Exhibition', 'Touchscreen', 'Projection'] })
   ]);
 })();
+
+/* ============================================================
+   ชุด Cut8 — งานเพิ่มเติม (รวม E-Book)
+   รูปอยู่ที่ assets/images/projects/cut8/<ชื่อโฟลเดอร์>/  (cover.webp + 01..NN.webp)
+   โฟลเดอร์ที่ขึ้นต้นว่า "เพิ่มเติม" = เอารูปไปต่อท้ายแกลเลอรีของงานเดิม
+   ============================================================ */
+(function () {
+  var BASE = 'assets/images/projects/cut8/';
+  var N = {
+    'AIS Guide Tour 2026': 9,
+    'Bangkok Design Festival 2015': 12,
+    'Bear Brand 2016': 34,
+    'EBook King Rama X': 6,
+    'EBook SCB Challenge': 6,
+    'EBook The Science of Food': 6,
+    'EBook กระทรวงต่างประเทศ': 6,
+    'EBook พิพิธภัณฑ์ต้านโกง': 6,
+    'EBook มูลนิธิป่อเต็กตึ๊ง': 6,
+    'EBook รัฐธรรมนูญแห่งราชอาณาจักรไทย': 6,
+    'EBook ลายพระหัตถ์สมเด็จย่า': 6,
+    'EBook สมุดรูปสมเด็จย่า': 6,
+    'GPSC Museum': 9,
+    'IZUSU Racing 2024': 1,
+    'Invisalign Live Streaming 2021': 12,
+    'KingPower 34 Year Aniversary 2023': 6,
+    'LV The Place Bangkok 2024': 3,
+    'MRKREME ArtToy Asia Tour 2026': 23,
+    'NSM Narit Chiangmai 2019': 44,
+    'NSM Narit Chiangmai 2026': 16,
+    'NSM Sattlelite Renovation 2023': 8,
+    'PTTEP พิพิธภัณฑ์ ปตท.สผ. 2022': 12,
+    'Saiko Prospex Virtual Try-On 2024': 7,
+    'Website Dashboard EGAT Smart Learning Room 2021': 3,
+    'Wharton Global Forum 2015': 4,
+    'Wuthering Waves 2026': 47,
+    'การประกวดโครงงานเยาวชนดีเด่น 2015': 5,
+    'นิทรรศการ ศิลป์ พีระศรี OLED Transparent 2026': 5,
+    'พิพิธภัณฑ์ กลต 2014': 30,
+    'พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติ 2023 เกมปลูกผัก': 10,
+    'พิพิธภัณฑ์ดิน 2025': 20,
+    'มหกรรมวิทยาศาสตร์ 2021 ชิ้นงาน หน้าสื่อเสียง': 6,
+    'เพิ่มเติม Central Embassy 2015': 5,
+    'เพิ่มเติม PTTLNG': 2,
+    'เพิ่มเติม Tanland': 20,
+    'เพิ่มเติม ThaiBev SX': 2,
+    'เพิ่มเติม The Voice Kid 1-7': 7,
+    'เพิ่มเติม พิพิธภัณฑ์เมืองยะลา': 3,
+    'เพิ่มเติม วิวัฒรัฐสภาไทย': 39,
+    'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. ลำตะคอง': 14,
+    'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. ลำตะคอง Elextropia': 18,
+    'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง': 13,
+    'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง renovate 2025': 12,
+    'เพิ่มเติม ศูนย์การเรียนรู้นันทสิปปาคาร น่าน 2025': 18
+  };
+  function num(f, i) { return BASE + f + '/' + (i < 10 ? '0' + i : i) + '.webp'; }
+  function G(f) {
+    var a = [], mx = N[f] || 12;
+    for (var i = 1; i <= mx; i++) a.push(num(f, i));
+    return a;
+  }
+  function addTo(id, f) {
+    for (var i = 0; i < window.TSTONE_PROJECTS.length; i++) {
+      if (window.TSTONE_PROJECTS[i].id === id) {
+        window.TSTONE_PROJECTS[i].gallery = window.TSTONE_PROJECTS[i].gallery.concat(G(f));
+        return;
+      }
+    }
+  }
+  function P(o) {
+    var skip = o.skip || [];
+    o.gallery = G(o.f).filter(function (x) {
+      for (var i = 0; i < skip.length; i++) if (x === num(o.f, skip[i])) return false;
+      return true;
+    });
+    o.image = o.cover ? num(o.f, o.cover) : BASE + o.f + '/cover.webp';
+    delete o.f; delete o.cover; delete o.skip;
+    return o;
+  }
+
+  /* ---- รูปเพิ่มของงานเดิม ---- */
+  addTo('central-embassy-2015', 'เพิ่มเติม Central Embassy 2015');   /* 5 รูป */
+  addTo('pttlng-museum-2022', 'เพิ่มเติม PTTLNG');   /* 2 รูป */
+  addTo('tanland-2024', 'เพิ่มเติม Tanland');   /* 20 รูป */
+  addTo('thaibev-sx-2024', 'เพิ่มเติม ThaiBev SX');   /* 2 รูป */
+  addTo('the-voice-kid', 'เพิ่มเติม The Voice Kid 1-7');   /* 7 รูป */
+  addTo('yala-museum', 'เพิ่มเติม พิพิธภัณฑ์เมืองยะลา');   /* 3 รูป */
+  addTo('museum-parliament', 'เพิ่มเติม วิวัฒรัฐสภาไทย');   /* 39 รูป */
+  addTo('egat-lamtakong', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. ลำตะคอง');   /* 14 รูป */
+  addTo('egat-elextropia', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. ลำตะคอง Elextropia');   /* 18 รูป */
+  addTo('egat-hq', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง');   /* 13 รูป */
+  addTo('egat-hq-renovate-2024', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง renovate 2025');   /* 12 รูป */
+  addTo('nanthasippakarn', 'เพิ่มเติม ศูนย์การเรียนรู้นันทสิปปาคาร น่าน 2025');   /* 18 รูป */
+
+  /* ---- งานใหม่ ---- */
+  window.TSTONE_PROJECTS = window.TSTONE_PROJECTS.concat([
+    P({ id: 'ais-guide-tour-2026', f: 'AIS Guide Tour 2026',
+        title: 'AIS Guide Tour', subtitle: 'Interactive Guide System',
+        year: '2026', date: '2569', location: 'AIS', categories: ['Event', 'Interactive', 'System Integration'],
+        summary: 'ระบบนำชมอินเทอร์แอ็กทีฟสำหรับพาเยี่ยมชมพื้นที่ของ AIS พร้อมจอแสดงผลและสื่อประกอบตลอดเส้นทาง',
+        features: ['Guide System', 'Interactive Display', 'System Integration'] }),
+
+    P({ id: 'mrkreme-arttoy-2026', f: 'MRKREME ArtToy Asia Tour 2026',
+        title: 'MRKREME ArtToy Asia Tour', subtitle: 'Exhibition & Interactive Media',
+        year: '2026', date: '2569', location: 'MRKREME Asia Tour', categories: ['Event', 'Interactive'],
+        summary: 'นิทรรศการอาร์ตทอย MRKREME ทัวร์เอเชีย สื่อจัดแสดงและจุดถ่ายภาพอินเทอร์แอ็กทีฟตลอดงาน',
+        features: ['Exhibition Media', 'Interactive Display', 'Photo Activity'] }),
+
+    P({ id: 'wuthering-waves-2026', f: 'Wuthering Waves 2026',
+        title: 'Wuthering Waves', subtitle: 'Game Event Activation',
+        year: '2026', date: '2569', location: 'Wuthering Waves Thailand', categories: ['Event', 'Interactive', 'Game'],
+        summary: 'งานอีเวนต์เกม Wuthering Waves โซนกิจกรรมอินเทอร์แอ็กทีฟ จุดถ่ายภาพ และสื่อจัดแสดงในธีมของเกม',
+        features: ['Game Activation', 'Interactive Zone', 'Photo Activity', 'Exhibition Media'] }),
+
+    P({ id: 'nsm-narit-2026', f: 'NSM Narit Chiangmai 2026',
+        title: 'NSM x NARIT เชียงใหม่ 2026', subtitle: 'Observatory Exhibition',
+        year: '2026', date: '2569', location: 'อุทยานดาราศาสตร์สิรินธร เชียงใหม่', categories: ['Museum', 'Interactive'],
+        summary: 'นิทรรศการดาราศาสตร์ร่วมกับ NARIT เชียงใหม่ รอบปี 2569 สื่ออินเทอร์แอ็กทีฟและงานฉายภาพชุดใหม่',
+        features: ['Interactive Exhibition', 'Projection', 'Touchscreen'] }),
+
+    P({ id: 'silpa-bhirasri-oled', f: 'นิทรรศการ ศิลป์ พีระศรี OLED Transparent 2026',
+        title: 'นิทรรศการศิลป์ พีระศรี — OLED Transparent', subtitle: 'Transparent OLED Showcase',
+        year: '2026', date: '2569', location: 'นิทรรศการศิลป์ พีระศรี', categories: ['Museum', 'Interactive'],
+        summary: 'นิทรรศการศิลป์ พีระศรี ใช้จอ OLED โปร่งใสวางทับวัตถุจัดแสดง เห็นของจริงพร้อมกราฟิกอธิบายซ้อนบนจอ',
+        features: ['Transparent OLED', 'Interactive Display', 'Exhibition Media'] }),
+
+    P({ id: 'soil-museum-2025', f: 'พิพิธภัณฑ์ดิน 2025',
+        title: 'พิพิธภัณฑ์ดิน', subtitle: 'Museum Interactive Exhibition',
+        year: '2025', date: '2568', location: 'พิพิธภัณฑ์ดิน', categories: ['Museum', 'Interactive'],
+        summary: 'พิพิธภัณฑ์ดิน สื่อจัดแสดงอินเทอร์แอ็กทีฟ จอสัมผัส และงานฉายภาพเล่าเรื่องดินและการใช้ประโยชน์',
+        features: ['Interactive Exhibition', 'Touchscreen', 'Projection', 'System Integration'] }),
+
+    P({ id: 'isuzu-racing-2024', f: 'IZUSU Racing 2024',
+        title: 'ISUZU Racing', subtitle: 'Racing Simulator Activation',
+        year: '2024', date: '2567', location: 'ISUZU', categories: ['Event', 'Interactive', 'Game'],
+        summary: 'กิจกรรมเกมแข่งรถจำลองในงานของ ISUZU พร้อมระบบจัดอันดับผู้เล่น',
+        features: ['Racing Simulator', 'Leaderboard', 'Event Activation'] }),
+
+    P({ id: 'lv-the-place-2024', f: 'LV The Place Bangkok 2024',
+        title: 'LV The Place Bangkok', subtitle: 'Retail Interactive Media',
+        year: '2024', date: '2567', location: 'LV The Place Bangkok', categories: ['Event', 'Interactive'],
+        summary: 'สื่ออินเทอร์แอ็กทีฟและจอจัดแสดงภายใน LV The Place Bangkok',
+        features: ['Interactive Display', 'Retail Media', 'System Integration'] }),
+
+    P({ id: 'seiko-prospex-tryon', f: 'Saiko Prospex Virtual Try-On 2024',
+        title: 'Seiko Prospex Virtual Try-On', subtitle: 'AR Virtual Try-On',
+        year: '2024', date: '2567', location: 'Seiko Prospex', categories: ['Event', 'Interactive'],
+        summary: 'ระบบลองสวมนาฬิกาเสมือนจริงด้วย AR ผู้ชมยกข้อมือเข้าหน้าจอแล้วเห็นนาฬิกาบนข้อมือตัวเอง',
+        features: ['AR Try-On', 'Interactive Display', 'Product Activation'] }),
+
+    P({ id: 'kingpower-34-2023', f: 'KingPower 34 Year Aniversary 2023',
+        title: 'King Power ครบรอบ 34 ปี', subtitle: 'Anniversary Event Media',
+        year: '2023', date: '2566', location: 'King Power', categories: ['Event', 'Interactive'],
+        summary: 'สื่อจัดแสดงและกิจกรรมภายในงานครบรอบ 34 ปีของ King Power',
+        features: ['Event Media', 'Interactive Display', 'Anniversary Exhibition'] }),
+
+    P({ id: 'nsm-satellite-2023', f: 'NSM Sattlelite Renovation 2023',
+        title: 'NSM — ปรับปรุงนิทรรศการดาวเทียม', subtitle: 'Exhibition Renovation',
+        year: '2023', date: '2566', location: 'องค์การพิพิธภัณฑ์วิทยาศาสตร์แห่งชาติ (อพวช.)', categories: ['Museum', 'Interactive'],
+        summary: 'ปรับปรุงโซนนิทรรศการดาวเทียมของ อพวช. สื่ออินเทอร์แอ็กทีฟและจอแสดงผลชุดใหม่',
+        features: ['Renovation', 'Interactive Exhibition', 'Touchscreen'] }),
+
+    P({ id: 'agri-museum-farm-game', f: 'พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติ 2023 เกมปลูกผัก',
+        title: 'พิพิธภัณฑ์การเกษตรฯ — เกมปลูกผัก', subtitle: 'Interactive Learning Game',
+        year: '2023', date: '2566', location: 'พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติฯ ปทุมธานี', categories: ['Museum', 'Game', 'Interactive'],
+        summary: 'เกมปลูกผักอินเทอร์แอ็กทีฟในพิพิธภัณฑ์การเกษตรฯ ผู้ชมลงมือปลูก ดูแล และเก็บเกี่ยวผ่านจอสัมผัส',
+        features: ['Interactive Game', 'Touchscreen', 'Learning Content'] }),
+
+    P({ id: 'pttep-museum-2022', f: 'PTTEP พิพิธภัณฑ์ ปตท.สผ. 2022',
+        title: 'พิพิธภัณฑ์ ปตท.สผ.', subtitle: 'Museum Interactive Exhibition',
+        year: '2022', date: '2565', location: 'ปตท.สผ.', categories: ['Museum', 'Interactive'],
+        summary: 'พิพิธภัณฑ์ ปตท.สผ. สื่อจัดแสดงอินเทอร์แอ็กทีฟ จอสัมผัส และงานฉายภาพเล่าเรื่องการสำรวจและผลิตปิโตรเลียม',
+        features: ['Interactive Exhibition', 'Touchscreen', 'Projection', 'System Integration'] }),
+
+    P({ id: 'invisalign-live-2021', f: 'Invisalign Live Streaming 2021',
+        title: 'Invisalign Live Streaming', subtitle: 'Online Conference & Live Streaming',
+        year: '2021', date: '2564', location: 'Invisalign', categories: ['Event', 'System Integration'],
+        summary: 'ระบบถ่ายทอดสดงานสัมมนาออนไลน์ของ Invisalign พร้อมระบบภาพและการควบคุมการออกอากาศ',
+        features: ['Live Streaming', 'Studio Setup', 'Broadcast Control'] }),
+
+    P({ id: 'science-fair-2021-sound', f: 'มหกรรมวิทยาศาสตร์ 2021 ชิ้นงาน หน้าสื่อเสียง',
+        title: 'มหกรรมวิทยาศาสตร์ 2021 — สื่อเสียง', subtitle: 'Interactive Sound Exhibit',
+        year: '2021', date: '2564', location: 'มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ', categories: ['Event', 'Interactive'],
+        summary: 'ชิ้นงานสื่อเสียงอินเทอร์แอ็กทีฟในมหกรรมวิทยาศาสตร์ 2564 ผู้ชมโต้ตอบกับเสียงและภาพบนหน้าจอ',
+        features: ['Interactive Exhibit', 'Sound Design', 'Touchscreen'] }),
+
+    P({ id: 'egat-learning-dashboard', f: 'Website Dashboard EGAT Smart Learning Room 2021',
+        title: 'Dashboard ศูนย์การเรียนรู้ กฟผ.', subtitle: 'Monitoring Dashboard',
+        year: '2021', date: '2564', location: 'กฟผ.', categories: ['Website', 'System Integration'],
+        summary: 'แดชบอร์ดติดตามการใช้งานห้องเรียนรู้ กฟผ. สรุปสถิติผู้เข้าชมและการใช้สื่อแต่ละจุดแบบเรียลไทม์',
+        features: ['Realtime Dashboard', 'Analytics', 'Admin Backend'] }),
+
+    P({ id: 'nsm-narit-2019', f: 'NSM Narit Chiangmai 2019',
+        title: 'NSM x NARIT เชียงใหม่', subtitle: 'Observatory Exhibition',
+        year: '2019', date: '2562', location: 'อุทยานดาราศาสตร์สิรินธร เชียงใหม่', categories: ['Museum', 'Interactive'],
+        summary: 'นิทรรศการดาราศาสตร์ร่วมกับ NARIT เชียงใหม่ สื่ออินเทอร์แอ็กทีฟ จอสัมผัส และงานฉายภาพเล่าเรื่องจักรวาล',
+        features: ['Interactive Exhibition', 'Projection', 'Touchscreen', 'System Integration'] }),
+
+    P({ id: 'bear-brand-2016', f: 'Bear Brand 2016',
+        title: 'Bear Brand', subtitle: 'Brand Activation',
+        year: '2016', date: '2559', location: 'Bear Brand', categories: ['Event', 'Interactive'],
+        summary: 'กิจกรรมอินเทอร์แอ็กทีฟและสื่อจัดแสดงในงานของ Bear Brand',
+        features: ['Interactive Activation', 'Event Media', 'Display System'] }),
+
+    P({ id: 'bangkok-design-festival-2015', f: 'Bangkok Design Festival 2015',
+        title: 'Bangkok Design Festival', subtitle: 'Festival Interactive Media',
+        year: '2015', date: '2558', location: 'Bangkok Design Festival', categories: ['Event', 'Interactive'],
+        summary: 'สื่ออินเทอร์แอ็กทีฟและงานติดตั้งในเทศกาล Bangkok Design Festival',
+        features: ['Interactive Installation', 'Projection', 'Event Media'] }),
+
+    P({ id: 'wharton-global-forum-2015', f: 'Wharton Global Forum 2015',
+        title: 'Wharton Global Forum', subtitle: 'Conference Media System',
+        year: '2015', date: '2558', location: 'Wharton Global Forum Bangkok', categories: ['Event', 'System Integration'],
+        summary: 'ระบบภาพและสื่อบนเวทีงานประชุม Wharton Global Forum',
+        features: ['Stage Media', 'Display System', 'Conference Support'] }),
+
+    P({ id: 'youth-project-award-2015', f: 'การประกวดโครงงานเยาวชนดีเด่น 2015',
+        title: 'การประกวดโครงงานเยาวชนดีเด่น', subtitle: 'Competition Event System',
+        year: '2015', date: '2558', location: 'การประกวดโครงงานเยาวชนดีเด่น', categories: ['Event', 'System Integration'],
+        summary: 'ระบบจัดการการประกวดและระบบภาพสำหรับงานประกวดโครงงานเยาวชนดีเด่น',
+        features: ['Competition System', 'Score Display', 'Event Support'] }),
+
+    P({ id: 'sec-museum-2014', f: 'พิพิธภัณฑ์ กลต 2014',
+        title: 'พิพิธภัณฑ์ ก.ล.ต.', subtitle: 'Museum Interactive Exhibition',
+        year: '2014', date: '2557', location: 'สำนักงาน ก.ล.ต.', categories: ['Museum', 'Interactive'],
+        summary: 'พิพิธภัณฑ์สำนักงาน ก.ล.ต. สื่อจัดแสดงอินเทอร์แอ็กทีฟและจอสัมผัสให้ความรู้เรื่องตลาดทุน',
+        features: ['Interactive Exhibition', 'Touchscreen', 'System Integration'] }),
+
+    P({ id: 'gpsc-museum', f: 'GPSC Museum',
+        title: 'GPSC Museum', subtitle: 'Museum Interactive Exhibition',
+        year: '2022', date: '2565', location: 'GPSC', categories: ['Museum', 'Interactive'],
+        summary: 'พิพิธภัณฑ์ GPSC สื่อจัดแสดงอินเทอร์แอ็กทีฟและจอสัมผัสเล่าเรื่องพลังงานไฟฟ้า',
+        features: ['Interactive Exhibition', 'Touchscreen', 'System Integration'] }),
+
+    P({ id: 'ebook-rama10', f: 'EBook King Rama X',
+        title: 'E-Book พระราชประวัติรัชกาลที่ 10', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'หนังสืออิเล็กทรอนิกส์เฉลิมพระเกียรติ', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสืออิเล็กทรอนิกส์เฉลิมพระเกียรติพระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว พลิกอ่านได้เหมือนหนังสือจริง พร้อมภาพและสื่อประกอบ',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] }),
+
+    P({ id: 'ebook-scb-challenge', f: 'EBook SCB Challenge',
+        title: 'E-Book SCB Challenge', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'ธนาคารไทยพาณิชย์', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสืออิเล็กทรอนิกส์สรุปโครงการ SCB Challenge พลิกอ่านพร้อมภาพและวิดีโอประกอบ',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] }),
+
+    P({ id: 'ebook-science-of-food', f: 'EBook The Science of Food',
+        title: 'E-Book The Science of Food', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'นิทรรศการ The Science of Food', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสืออิเล็กทรอนิกส์ประกอบนิทรรศการ The Science of Food เล่าเรื่องวิทยาศาสตร์ของอาหารพร้อมภาพประกอบ',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] }),
+
+    P({ id: 'ebook-mfa', f: 'EBook กระทรวงต่างประเทศ',
+        title: 'E-Book กระทรวงการต่างประเทศ', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'กระทรวงการต่างประเทศ', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสืออิเล็กทรอนิกส์ของกระทรวงการต่างประเทศ พลิกอ่าน ค้นหา และบันทึกหน้าที่สนใจได้',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] }),
+
+    P({ id: 'ebook-anti-corruption', f: 'EBook พิพิธภัณฑ์ต้านโกง',
+        title: 'E-Book พิพิธภัณฑ์ต้านโกง', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'พิพิธภัณฑ์ต้านโกง (ป.ป.ช.)', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสืออิเล็กทรอนิกส์ประกอบพิพิธภัณฑ์ต้านโกง เนื้อหาต่อต้านการทุจริตพร้อมภาพและสื่อประกอบ',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] }),
+
+    P({ id: 'ebook-poh-teck-tung', f: 'EBook มูลนิธิป่อเต็กตึ๊ง',
+        title: 'E-Book มูลนิธิป่อเต็กตึ๊ง', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'มูลนิธิป่อเต็กตึ๊ง', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสืออิเล็กทรอนิกส์เล่าประวัติและภารกิจของมูลนิธิป่อเต็กตึ๊ง พลิกอ่านพร้อมภาพประกอบ',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] }),
+
+    P({ id: 'ebook-constitution', f: 'EBook รัฐธรรมนูญแห่งราชอาณาจักรไทย',
+        title: 'E-Book รัฐธรรมนูญแห่งราชอาณาจักรไทย', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'รัฐสภา', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสืออิเล็กทรอนิกส์รัฐธรรมนูญแห่งราชอาณาจักรไทย ค้นหามาตรา บันทึกหน้า และอ่านได้ทุกอุปกรณ์',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] }),
+
+    P({ id: 'ebook-somdet-ya-letters', f: 'EBook ลายพระหัตถ์สมเด็จย่า',
+        title: 'E-Book ลายพระหัตถ์สมเด็จย่า', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'นิทรรศการสมเด็จย่า', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสืออิเล็กทรอนิกส์รวมลายพระหัตถ์สมเด็จย่า พลิกอ่านพร้อมภาพต้นฉบับความละเอียดสูง',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] }),
+
+    P({ id: 'ebook-somdet-ya-album', f: 'EBook สมุดรูปสมเด็จย่า',
+        title: 'E-Book สมุดรูปสมเด็จย่า', subtitle: 'Interactive E-Book',
+        year: '2020', date: '2563', location: 'นิทรรศการสมเด็จย่า', categories: ['E-Book', 'Interactive'],
+        summary: 'หนังสือภาพอิเล็กทรอนิกส์รวมภาพถ่ายสมเด็จย่า พลิกชมพร้อมคำบรรยายแต่ละภาพ',
+        features: ['Interactive E-Book', 'Page Flip', 'Search & Bookmark', 'Multi-platform'] })
+  ]);
+})();
