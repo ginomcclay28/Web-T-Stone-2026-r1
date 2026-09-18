@@ -54,19 +54,6 @@ window.TSTONE_PROJECTS = [
     featured: true
   },
   {
-    id: 'egat-hq-2026',
-    title: 'ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง รีโนเวท 2026',
-    subtitle: 'EGAT Learning Center Renovation',
-    year: '2026',
-    date: '2569',
-    location: 'ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง',
-    image: 'assets/images/projects/egat-hq-2026/cover.webp',
-    gallery: ['assets/images/projects/egat-hq-2026/01.webp'],
-    categories: ['Museum', 'Interactive'],
-    summary: 'ปรับปรุงห้องฉายภาพโค้งและระบบสื่อจัดแสดงใหม่ทั้งชุด',
-    features: ['Curved Projection', 'System Integration', 'Exhibition Media']
-  },
-  {
     id: '3bb-fibre-2026',
     title: 'AIS 3BB Fibre3 @ Thailand Mobile Expo 2026',
     subtitle: 'Booth Media & Display System',
@@ -2847,7 +2834,7 @@ window.TSTONE_PROJECTS = [
 
     P({ id: 'egat-hq-renovate-2024', f: 'ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง รีโนเวท 2024',
         title: 'ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง (รีโนเวท)', subtitle: 'Learning Centre Renovation',
-        year: '2024', date: '2567', location: 'กฟผ. สำนักงานกลาง บางกรวย', categories: ['Museum', 'Interactive'],
+        year: '2025', date: '2568', location: 'กฟผ. สำนักงานกลาง บางกรวย', categories: ['Museum', 'Interactive'],
         summary: 'ปรับปรุงศูนย์การเรียนรู้ กฟผ. สำนักงานกลางใหม่ทั้งหมด สื่อจัดแสดงอินเทอร์แอ็กทีฟ จอสัมผัส และงานฉายภาพชุดใหม่',
         features: ['Renovation', 'Interactive Exhibition', 'Touchscreen', 'Projection'] }),
 
@@ -3253,6 +3240,17 @@ window.TSTONE_PROJECTS = [
     for (var i = 0; i < window.TSTONE_PROJECTS.length; i++) {
       if (window.TSTONE_PROJECTS[i].id === 'pttep-museum-2022') {
         window.TSTONE_PROJECTS[i].gallery = window.TSTONE_PROJECTS[i].gallery.concat(extra);
+        break;
+      }
+    }
+  })();
+
+  /* รูปจากงาน "รีโนเวท 2026" ที่ถูกยุบรวมเข้ามา */
+  (function () {
+    for (var i = 0; i < window.TSTONE_PROJECTS.length; i++) {
+      if (window.TSTONE_PROJECTS[i].id === 'egat-hq-renovate-2024') {
+        window.TSTONE_PROJECTS[i].gallery =
+          window.TSTONE_PROJECTS[i].gallery.concat(['assets/images/projects/egat-hq-2026/01.webp']);
         break;
       }
     }
