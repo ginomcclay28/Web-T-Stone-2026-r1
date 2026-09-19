@@ -3256,3 +3256,57 @@ window.TSTONE_PROJECTS = [
     }
   })();
 })();
+
+/* ============================================================
+   ชุด Cut9
+   รูปอยู่ที่ assets/images/projects/cut9/<ชื่อโฟลเดอร์>/  (cover.webp + 01..NN.webp)
+   โฟลเดอร์ที่ขึ้นต้นว่า "เพิ่มเติม" = เอารูปไปต่อท้ายแกลเลอรีของงานเดิม
+   ============================================================ */
+(function () {
+  var BASE = 'assets/images/projects/cut9/';
+  var N = {
+    'Wedding Wishes 2019': 14,
+    'เพิ่มเติม GPSC Museum': 23,
+    'เพิ่มเติม Mazda 3 Transparent Box': 11,
+    'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง renovate 2025': 46
+  };
+  function num(f, i) { return BASE + f + '/' + (i < 10 ? '0' + i : i) + '.webp'; }
+  function G(f) {
+    var a = [], mx = N[f] || 12;
+    for (var i = 1; i <= mx; i++) a.push(num(f, i));
+    return a;
+  }
+  function addTo(id, f, skip) {
+    skip = skip || [];
+    var add = G(f).filter(function (x) {
+      for (var i = 0; i < skip.length; i++) if (x === num(f, skip[i])) return false;
+      return true;
+    });
+    for (var i = 0; i < window.TSTONE_PROJECTS.length; i++) {
+      if (window.TSTONE_PROJECTS[i].id === id) {
+        window.TSTONE_PROJECTS[i].gallery = window.TSTONE_PROJECTS[i].gallery.concat(add);
+        return;
+      }
+    }
+  }
+  function P(o) {
+    o.gallery = G(o.f);
+    o.image = o.cover ? num(o.f, o.cover) : BASE + o.f + '/cover.webp';
+    delete o.f; delete o.cover;
+    return o;
+  }
+
+  /* ---- รูปเพิ่มของงานเดิม ---- */
+  addTo('gpsc-museum', 'เพิ่มเติม GPSC Museum');
+  addTo('mazda3-transparent-box', 'เพิ่มเติม Mazda 3 Transparent Box');
+  addTo('egat-hq-renovate-2024', 'เพิ่มเติม ศูนย์การเรียนรู้ กฟผ. สำนักงานกลาง renovate 2025');
+
+  /* ---- งานใหม่ ---- */
+  window.TSTONE_PROJECTS = window.TSTONE_PROJECTS.concat([
+    P({ id: 'wedding-wishes-2019', f: 'Wedding Wishes 2019',
+        title: 'Wedding Wishes', subtitle: 'Live Wish Wall & Instant Print',
+        year: '2019', date: '2562', location: 'งานแต่งงาน', categories: ['Event', 'Interactive'],
+        summary: 'มุมอวยพรบ่าวสาวในงานแต่งงาน แขกเขียนคำอวยพรและถ่ายภาพผ่านมือถือ ข้อความขึ้นบนวิดีโอวอลล์ทันที พร้อมพิมพ์ภาพออกมาแขวนบนราวไม้หนีบให้เป็นของที่ระลึก',
+        features: ['Live Wish Wall', 'Video Wall', 'Instant Print', 'Photo Clothesline'] })
+  ]);
+})();
